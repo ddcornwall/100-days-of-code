@@ -29,14 +29,13 @@
 **Link to work:** - None
 
 
-<!---
-### Day 1: June 27, Monday
+### Day 1: October 13, 2017
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+**Today's Progress**: I've gone through many exercises on FreeCodeCamp. Learned new border features in CSS
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+**Thoughts** One challege, putting an image into code gave me fits, not because the code didn't work, but a glitch in FCC check tests didn't work. But going to FCC forum at https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-add-images-to-your-website/16640/7 helped me realize the issue wasn't me. Forums are your friend!
 
 **Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
---->
+1. [CatPhotoApp GitHub Repository (https://github.com/ddcornwall/CatPhotoApp)
+2. [Circular Images with a border radius (https://www.freecodecamp.org/challenges/make-circular-images-with-a-border-radius)
+
