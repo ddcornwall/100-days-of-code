@@ -1,6 +1,21 @@
 # 100 Days Of Code - Log
 
-### Day 2: October 14, 2017
+### Day 3: October 15, 2017 - Time spent, 2 hours
+
+**Today's Progress**: I've now completed 104 coding challenges on the Front End Developer track at Free Code Camp (FCC). I learned more about colors in HTML, learned some basic Bootstrap layout for buttons and form fields and have begun to refresh myself on jQuery
+
+**Thoughts** My favorite thing I learned today is something most readers here will know. The six digit hexadecimal codes for web colors aren't arbitrary. They are explicit color mixes. The first two digits are Red intensity, the second two are Green intensity and the last
+two digits are for blue intensity. #000000 stands for black because RGB are all at zero. #FFFFFF is white because red, green and blue are at their highest and equal intensity. The hexadecimal numbers have gone from mystery to fun color mixing. 
+
+Granted, I should be more excited about learning Bootstrap and some basic responsive design, and I do intend to play with that in coming days. It's just the FCC environment doesn't allow for much screen resizing - so harder to get excited within the Free Code Camp environment. 
+
+Finally, I've started adding on "Time spent" for each day. I use Kanban flow (www.kanbanflow.com) for reminders prompts of things I want to get done through out the week. I have a recurring daily item for 100 days of code. Kanban flow includes timer features, so I'm using it to track my coding time. 
+ 
+**Link(s) to work**
+1. [FCC Map (https://www.freecodecamp.org/map)]
+
+
+### Day 2: October 14, 2017 - Time spent, 1 hour
 
 **Today's Progress**: I've now completed 56 coding challenges on the Front End Developer track at Free Code Camp (FCC). I learned about creating HTML forms and styling elements with colors. I used this knowledge to create my own simple form on my new Cloud9 account.
 
@@ -13,7 +28,7 @@ Eventually, I'll need to figure out how to get Cloud9 to host my content in a no
 2. [Live "preview" form, click button to see actual form (https://sandbox-ddcornwall.c9users.io/asimpleform.html)]
 
 
-### Day 1: October 13, 2017
+### Day 1: October 13, 2017 - Time spent, 1 hour
 
 **Today's Progress**: I've gone through many exercises on FreeCodeCamp. Learned new border features in CSS
 
