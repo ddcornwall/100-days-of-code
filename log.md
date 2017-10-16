@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 4: October 16, 2017 - Time spent, 1.25 hours coding, plus about an additional hour of attempting VM setup in Cloud9
+
+**Today's Progress**: I have completed 114 coding challenges on Free Code Camp (FCC) and refreshing myself on the use of jQuery to change HTML. I have also learned a few ways of how not to set up a virtual machine in [Cloud9 (https://c9.io)]. I've also become a bit more comfortable in installing Python packages from a command line, even if they're not working as intended. 
+
+**Thoughts** Today was actually pretty frustrating as opposed to the first three days. I had hoped to get more accomplished because I have the morning off. Instead, it wound up being less productive. It started when I got 504 errors from FCC. It still hadn't cleared up after ten minutes so I decided to set up a python box on Cloud9 so I could start working on my data analysis program. In retrospect, I wish I had played with my HTML5 box on Cloud 9 instead, consolidating what I'd been learning. But I went for python setup.
+
+This was a problem because the basic Python setup in Cloud9 lacks some data specific modules I need. Specifically matplotlib and pandas. My efforts to install them on top of the basic C9 instance didn't work for me, so I followed a recipe for installing miniconda on a blank c9 box. That seemed to work, but now my program still can't find the modules it needs. I think it's probably a path environment error, but I couldn't find how to access that. So I threw up my hands and tried FCC again, which was working. 
+
+Tonight I may spend some time trying to get my Python box to work, but I won't count that as coding time. Whether or not I get it working, I think tomorrow I'll be back on FCC code camp and go to my HTML5 Cloud9 box when I hit a good stopping point. 
+
+It's always good to learn troubleshooting and work arounds, but I'd really like to be able to focus on the actual coding in the days ahead. 
+
+**Link(s) to work**
+1. [FCC Map (https://www.freecodecamp.org/map)]
+2. [Using Conda on Cloud9 (https://kaiserho.wordpress.com/2016/07/21/using-conda-on-c9-io/)]
+
+
 ### Day 3: October 15, 2017 - Time spent, 2 hours
 
 **Today's Progress**: I've now completed 104 coding challenges on the Front End Developer track at Free Code Camp (FCC). I learned more about colors in HTML, learned some basic Bootstrap layout for buttons and form fields and have begun to refresh myself on jQuery
@@ -13,6 +30,7 @@ Finally, I've started adding on "Time spent" for each day. I use Kanban flow (ww
  
 **Link(s) to work**
 1. [FCC Map (https://www.freecodecamp.org/map)]
+
 
 
 ### Day 2: October 14, 2017 - Time spent, 1 hour
