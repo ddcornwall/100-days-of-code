@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 5: October 17, 2017 - Time spent, 1 hour
+
+**Today's Progress**: I completed the 118 code challenges in Free Code Camp (FCC) Front End Developer and now am working on the first Front End Developer Project, the tribute page. I've started setting up the page and have my heading and graphics. I need to get my images to line up in the same row, add a timeline or other thoughts. 
+
+**Thoughts** This will definitely be a challenge despite the fact that 1) I should have everything I need and 2) I've been using the "Read/Search/Ask" methodology for years in many areas. If I weren't contrained by the requirement to only use bootstrap, I think I could duplicate the gray box on the Borlaug page. I've started off by using a Bootstrap panel, but that doesn't look right. I started using a bootstrap row and columns to get the photos in the same row but that isn't working yet. Next time I have coding time, I will review my FCC Cat Photo App work because one of the exercises did put two pictures together.  
+
+Finally, I write these entries in the morning to make sure they get done. I may do more coding tonight. If I do, I'll probably just tweet the progress. If you've done or are doing #100DaysOfCode, I'd be interested in hearing how you handle documenting (if you do) any "post log" coding. 
+
+**Link(s) to work**
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
+2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/pen/OxaqdK)]
+
+
 ### Day 4: October 16, 2017 - Time spent, 1.25 hours coding, plus about an additional hour of attempting VM setup in Cloud9
 
 **Today's Progress**: I have completed 114 coding challenges on Free Code Camp (FCC) and refreshing myself on the use of jQuery to change HTML. I have also learned a few ways of how not to set up a virtual machine in [Cloud9 (https://c9.io)]. I've also become a bit more comfortable in installing Python packages from a command line, even if they're not working as intended. 
