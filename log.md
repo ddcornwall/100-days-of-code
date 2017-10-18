@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 6: October 18, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Not huge progress so far. I'm getting lots of practice in read/search/ask. My tribute page has a bit more information and I've figured out one way to caption my image. 
+
+**Thoughts**: I had to avoid my librarian tendency to make this "coding" time a chance to gather all the information I am going to use about Gandhi. Because this tribute page is a coding project, I contented myself with putting in some placeholders and just a few key resources and then focused on coding. 
+
+This project is harder than it looks - no surprise. Partly because coding is work in general, but I feel especially constrained by the project instructions to not use CSS and rely on out of the box bootstrap. Comparing my page to FCC's Boralug tribute, I've generated this list of things I'm not clear yet on:
+
+- How their title seems larger than my H1 tag
+- How they generate the gray box. I feel like I've eliminated panels as a solution. I would say it's an add on to the <body> tag, but codepen doesn't seem to give you access to the <body> tag in pens.
+- How they get their caption seemingly inside the image. Mine definitely looks tacked on to the bottom. It works but isn't elegant.
+- How he gets the vertical spacing between sections of his page. I doubt it's a set of <br> tags, but my searches for "bootstrap vertical spacing" haven't gotten me very far yet. 
+
+I'm not giving up. That would be silly. Also, I am confident I could closely duplicate this page if I was allowed to use CSS. I know how to code grey boxes. But I am interested in doing it the bootstrap way. Knowing that something can be done keeps my will alive. 
+
+**Link(s) to work**
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/pen/OxaqdK)]
+
+
 ### Day 5: October 17, 2017 - Time spent, 1 hour
 
 **Today's Progress**: I completed the 118 code challenges in Free Code Camp (FCC) Front End Developer and now am working on the first Front End Developer Project, the tribute page. I've started setting up the page and have my heading and graphics. I need to get my images to line up in the same row, add a timeline or other thoughts. 
