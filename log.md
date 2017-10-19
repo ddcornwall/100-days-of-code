@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 7: October 19, 2017 - Time spent, 1 hour
+
+**Today's Progress**: I got my gray box on my tribute page. I've matched the color of the Borlaug tribute but the margins are different. I spaced out some of my elements better, though I did resort to CSS to make that happen. Because I wanted some feel of progress. 
+
+**Thoughts**: Here's my "I don't get how he did it list from yesterday":
+
+1) How their title seems larger than my H1 tag
+2) How they generate the gray box. I feel like I've eliminated panels as a solution. I would say it's an add on to the <body> tag, but codepen doesn't seem to give you access to the <body> tag in pens.
+3) How they get their caption seemingly inside the image. Mine definitely looks tacked on to the bottom. It works but isn't elegant.
+4) How he gets the vertical spacing between sections of his page. I doubt it's a set of <br> tags, but my searches for "bootstrap vertical spacing" haven't gotten me very far yet. 
+
+I feel like I've honestly solved #2. It seems I rejected panels too early. It turns out the exact color and the basic look of the box I wanted was a bootstrap panel header. I learned this from reading w3schools bootstrap panels tutorial at https://www.w3schools.com/bootstrap/bootstrap_panels.asp. The margins aren't quite right and I haven't figured out how to change them either by adding margin commands to the bootstrap elements or hacking it through CSS. Also, At one point I was considering cards rather than panels. I was starting to get confused, but then found https://ux.stackexchange.com/questions/78798/whats-the-difference-between-cards-panels-and-tiles which really helped me decide what tool to use. 
+
+I "solved" #4 by using CSS to change my H2 and figure elements. I added a margin-bottom to each. For reasons I don't understand, simply adding them to the element in HTML did not work. While it gives me a look I like, I'm disappointed I couldn't get the spacing without going outside unmodified bootstrap. But I figure I can revisit that later after I've got other stuff out of the way. 
+ 
+
+**Link(s) to work**
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/pen/YrdRLa)]
+
+
 ### Day 6: October 18, 2017 - Time spent, 1 hour
 
 **Today's Progress**: Not huge progress so far. I'm getting lots of practice in read/search/ask. My tribute page has a bit more information and I've figured out one way to caption my image. 
