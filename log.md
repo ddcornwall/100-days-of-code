@@ -10,7 +10,7 @@
 2) How they get their caption seemingly inside the image. Mine definitely looks tacked on to the bottom. It works but isn't elegant.
 3) How he gets the vertical spacing between sections of his page. I doubt it's a set of <br> tags, but my searches for "bootstrap vertical spacing" haven't gotten me very far yet. 
 
-Yesterday I wrote how I wound up using some custom CSS to control my vertical spacing, although that violated the rules of the challenge. Today I realized I was simply overthinking things. I simply stuck in "<br/><br/><br/>" where I wanted to space sections. Problem 3 solved, at least to my satisfaction.
+Yesterday I wrote how I wound up using some custom CSS to control my vertical spacing, although that violated the rules of the challenge. Today I realized I was simply overthinking things. I simply stuck in three br tags where I wanted to space sections. Problem 3 solved, at least to my satisfaction.
 
 I can't match the exact margins of the Borlaug tribute. Also, given some white gutter space on my panel header box, I'm thinking maybe FCC didn't use panels after all. Or used them with controls I haven't found yet. But after a lot of read/search, I'm going to call it good for the time being because it looks decent. I will revisit it once I've either gotten solutions for 1 and 2 above or decide they're ok too. Sometimes we just have to go for good enough. I'm not at that point - yet.
 
