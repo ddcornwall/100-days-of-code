@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 8: October 20, 2017 - Time spent, 1 hour
+
+**Today's Progress**: I created vertical spacing on my page without violating the rules of the tribute challenge. I increased the margins of my panel box using the bootstrap grid system. I also filled in some content since I'd solved a few of the code challenges. Will replace final "placeholder text" after I solve code challenges to my satisfaction. 
+
+**Thoughts**: Here's my updated "I don't get how he did it list":
+
+1) How their title seems larger than my H1 tag
+2) How they get their caption seemingly inside the image. Mine definitely looks tacked on to the bottom. It works but isn't elegant.
+3) How he gets the vertical spacing between sections of his page. I doubt it's a set of <br> tags, but my searches for "bootstrap vertical spacing" haven't gotten me very far yet. 
+
+Yesterday I wrote how I wound up using some custom CSS to control my vertical spacing, although that violated the rules of the challenge. Today I realized I was simply overthinking things. I simply stuck in "<br/><br/><br/>" where I wanted to space sections. Problem 3 solved, at least to my satisfaction.
+
+I can't match the exact margins of the Borlaug tribute. Also, given some white gutter space on my panel header box, I'm thinking maybe FCC didn't use panels after all. Or used them with controls I haven't found yet. But after a lot of read/search, I'm going to call it good for the time being because it looks decent. I will revisit it once I've either gotten solutions for 1 and 2 above or decide they're ok too. Sometimes we just have to go for good enough. I'm not at that point - yet.
+
+As far as problem 1, where the Borlaug title is bigger than I can get with a H1 tag, I found intriguing hints that you can increase the base size of text in Bootstrap. I couldn't explore that with the time I had this morning before work, but intend to follow up that hint. 
+
+I'm definitely getting a better feel for just how iterative and research intensive coding can be. 
+
+
+**Link(s) to work**
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/full/YrdRLa/)]
+
+
+
 ### Day 7: October 19, 2017 - Time spent, 1 hour
 
 **Today's Progress**: I got my gray box on my tribute page. I've matched the color of the Borlaug tribute but the margins are different. I spaced out some of my elements better, though I did resort to CSS to make that happen. Because I wanted some feel of progress. 
@@ -19,6 +44,7 @@ I "solved" #4 by using CSS to change my H2 and figure elements. I added a margin
 **Link(s) to work**
 1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
 2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/pen/YrdRLa)]
+
 
 
 ### Day 6: October 18, 2017 - Time spent, 1 hour
