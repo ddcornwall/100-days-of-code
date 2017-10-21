@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 9: October 21, 2017 - Time spent, 1 hour
+
+**Today's Progress**: I boosted my title size by using a style tag in my h1 header. It now looks close to the size of the Borlaug tribute. I completed the content part of my tribute page and I may have gotten a lead on my captioning issue.  
+
+**Thoughts**: In terms of coding issues without any kind of solution, I'm down to just one:
+
+- How they get their caption seemingly inside the image. Mine definitely looks tacked on to the bottom. It works but isn't elegant.
+
+After some more read/search, I THINK the solution might be a nested panel. That is, turn the image and caption into a panel that is in the panel containing the majority of my content. I hope to test that out tomorrow, when I also hope to have more than an hour to code. 
+
+I consider the title problem solved since I didn't put the style tag in a separate CSS window. This is more or less a Ben Kenobi solution of "It's true ... from a certain point of view."
+
+My plan for this project is to test out one or two more ways of getting the caption in my tribute photo to look more like the one in the FCC example. Then I will call this project done and offer it for feedback. After that, I will look at the code for the Borlaug page and document where its solutions differ from my own. 
+
+
+**Link(s) to work**
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/full/YrdRLa/)]
+
 ### Day 8: October 20, 2017 - Time spent, 1 hour
 
 **Today's Progress**: I created vertical spacing on my page without violating the rules of the tribute challenge. I increased the margins of my panel box using the bootstrap grid system. I also filled in some content since I'd solved a few of the code challenges. Will replace final "placeholder text" after I solve code challenges to my satisfaction. 
