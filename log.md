@@ -8,17 +8,7 @@
 
 "How they get their caption seemingly inside the image? Mine definitely looks tacked on to the bottom. It works but isn't elegant."
 
-As I mentioned yesterday, I thought the solution might involve putting a bootstrap panel within my panel. After some more of read/search, I tried out that solution. It worked decently well, but then I had a problem with text from below the image flowing around the image in a way that looked ugly. My first thought was to try a brute force approach involving over a dozen break tags:
-
-<pre>
-<br/><br/><br/>
-<br/><br/><br/>
-<br/><br/><br/>
-<br/><br/><br/>
-<br/><br/><br/>
-<br/><br/><br/>
-<br/><br/><br/>
-</pre>
+As I mentioned yesterday, I thought the solution might involve putting a bootstrap panel within my panel. After some more of read/search, I tried out that solution. It worked decently well, but then I had a problem with text from below the image flowing around the image in a way that looked ugly. My first thought was to try a brute force approach involving over a dozen break (br) tags
 
 This actually looked ok on the desktop, though I wasn't at all proud of the coding. BUT it looked very odd on my Android smartphone. Way too much space between the image and the next paragraph. So I eliminated the panel for the figure. Then I tried styling the "figure" tag with background color white and a huge margin. That gave me my frame that had the caption looking like it belonged inside the block. I would have liked to make the white spaces on either side of the image go away completely, but the large margin shrinks the image on mobile. 
 
