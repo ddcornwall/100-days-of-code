@@ -1,5 +1,37 @@
 # 100 Days Of Code - Log
 
+### Day 10: October 22, 2017 - Time spent, 1 hour
+
+**Today's Progress**: I figured out how to make my image and caption look like they belong together. With that last problem solved to my satisfaction, I submitted it as completed to Free Code Camp (FCC)  
+
+**Thoughts**: My last significant coding issue was:
+
+"How they get their caption seemingly inside the image? Mine definitely looks tacked on to the bottom. It works but isn't elegant."
+
+As I mentioned yesterday, I thought the solution might involve putting a bootstrap panel within my panel. After some more of read/search, I tried out that solution. It worked decently well, but then I had a problem with text from below the image flowing around the image in a way that looked ugly. My first thought was to try a brute force approach involving over a dozen break tags:
+
+<pre>
+<br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/>
+</pre>
+
+This actually looked ok on the desktop, though I wasn't at all proud of the coding. BUT it looked very odd on my Android smartphone. Way too much space between the image and the next paragraph. So I eliminated the panel for the figure. Then I tried styling the "figure" tag with background color white and a huge margin. That gave me my frame that had the caption looking like it belonged inside the block. I would have liked to make the white spaces on either side of the image go away completely, but the large margin shrinks the image on mobile. 
+
+The end product is not perfect. But it does look functionally similar to the Borlaug tribute and it does meet the two required user stories. I have a personal philosophy of "Don't let the perfect be the enemy of the good." In coding this can be expressed as "It's better to put out a "good enough" product in a few weeks than a perfect product eight months from now." I also figure that if it had been mission critical for me to have the exact look and feel of the Borlaug tribute, I would have looked at the code.
+
+While I did not look at the Borlaug code during the creation of this page, I do intend to look at it in a day or two. I'd like to see how things were done and perhaps make another version of my tribute page with it. But I think I'll at least start on the coding for the Portfolio page before I do so. 
+
+
+**Link(s) to work**
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/full/YrdRLa/)]
+
+
 ### Day 9: October 21, 2017 - Time spent, 1 hour
 
 **Today's Progress**: I boosted my title size by using a style tag in my h1 header. It now looks close to the size of the Borlaug tribute. I completed the content part of my tribute page and I may have gotten a lead on my captioning issue.  
