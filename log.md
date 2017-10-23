@@ -4,7 +4,7 @@
 
 SPECIAL NOTE: I see that since Day 5 I gave the wrong URL for the Borlaug tribute. It should be https://codepen.io/freeCodeCamp/full/NNvBQW. I have fixed this in the github log. 
 
-**Today's Progress**: I learned a few ways how not to report a bug with Free Code Camp (FCC). I learned how to open an FCC issue on GitHub (the right way to report a bug). After a frustrated start, I began my web portfolio. So far all I have is a navigation bar with links to my professional social media - but I started!
+**Today's Progress**: I learned a few ways how not to report a bug with Free Code Camp (FCC). I learned how to open an FCC issue on GitHub (the right way to report a bug). After a frustrated start, I began my web portfolio. So far all I have is a navigation bar with links to my professional social media - but I started! I also figured out how to host my page images on github, thought there are no hosted images on my portfolio page yet. 
 
 **Thoughts**: A friend and coworker told me that a lot of web development is getting your environment right and to expect frustration in that. She is wise. 
 
