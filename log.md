@@ -1,5 +1,48 @@
 # 100 Days Of Code - Log
 
+### Day 11: October 23, 2017 - Time spent, 1 hour 15 minutes
+
+SPECIAL NOTE: I see that since Day 5 I gave the wrong URL for the Borlaug tribute. It should be https://codepen.io/freeCodeCamp/full/NNvBQW. I have fixed this in the github log. 
+
+**Today's Progress**: I learned a few ways how not to report a bug with Free Code Camp (FCC). I learned how to open an FCC issue on GitHub (the right way to report a bug). After a frustrated start, I began my web portfolio. So far all I have is a navigation bar with links to my professional social media - but I started!
+
+**Thoughts**: A friend and coworker told me that a lot of web development is getting your environment right and to expect frustration in that. She is wise. 
+
+When I started today, a day off for me, I was expecting the process to go something like this:
+ 
+ - Review the Portfolio page assignement
+ - Test out the functionality of the Portfolio page example
+ - Make some kind of features list to work through
+ - Make some sort of progress on the features
+ - Be proud of my hours of productive coding.
+ 
+ Um. No. When I opened the portfolio example, there were no images. I knew there should be images because text clearly drawn from alt tags was displaying. No example web pages were dispalying under portfolio, which is kind of the point of this exercise. Thinking it could be a browser issue, I switched from Chrome, to Microsoft Edge to Firefox, no luck.
+ 
+ My next step was to search the forums to see if this issue had been mentioned. It had been mentioned in 2016 as an intermittent problem and at least four people had expressed frustration with it. I then went on a search for an example I could use. It took me awhile to find one that seemed fully suitable. Then I figured I'd report the problem. Eventually I was pointed to Github to open an issue after two other ways did not seem to work. So I opened an issue. [As I write this, I realize that while I searched OPEN issues on this topic, I probably should have searched CLOSED issues first.] 
+ 
+ I was deeply frustrated by this point, but didn't want to throw up my hands before I'd finished an hour. So I went back to the example I'm using and decided to just focus on the navbar. I'm off to a decent start and now have icons that link to my public social media.
+ 
+ I need to run some errands but hope to code more later. I'm going to keep my focus on the navbar. In particular I want to:
+ 
+ - Make the icons larger
+ - Make them change color on mouse over
+ - Have some roll over text for screenreaders
+ 
+ After that I'll do some planning for the other sections of my page. 
+ 
+
+**Links that helped me get progress done**
+1. [FCC Forum: Portfolio… JS? Where to start? (https://forum.freecodecamp.org/t/portfolio-js-where-to-start/22039)]
+2. [W3Schools Bootstrap NavBar (https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)]
+3. [W3Schools Font Awesome (https://www.w3schools.com/icons/fontawesome_icons_brand.asp)]
+
+
+**Link(s) to work**
+1. [My Porfolio page  (https://codepen.io/ddcornwall/full/zEQELW/)]
+2. [Itamar Rosenblum Portfolio page (https://codepen.io/ItamarRosenblum/full/eGozMa/)] - I'm using this for my example, but will have a different color scheme. 
+3. [FCC provided example that had broken images as of 10/23/2017 (https://codepen.io/freeCodeCamp/full/YqLyXB)]
+
+
 ### Day 10: October 22, 2017 - Time spent, 1 hour
 
 **Today's Progress**: I figured out how to make my image and caption look like they belong together. With that last problem solved to my satisfaction, I submitted it as completed to Free Code Camp (FCC)  
@@ -18,7 +61,7 @@ While I did not look at the Borlaug code during the creation of this page, I do 
 
 
 **Link(s) to work**
-1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
 2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/full/YrdRLa/)]
 
 
@@ -38,7 +81,7 @@ My plan for this project is to test out one or two more ways of getting the capt
 
 
 **Link(s) to work**
-1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
 2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/full/YrdRLa/)]
 
 ### Day 8: October 20, 2017 - Time spent, 1 hour
@@ -61,7 +104,7 @@ I'm definitely getting a better feel for just how iterative and research intensi
 
 
 **Link(s) to work**
-1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
 2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/full/YrdRLa/)]
 
 
@@ -83,7 +126,7 @@ I "solved" #4 by using CSS to change my H2 and figure elements. I added a margin
  
 
 **Link(s) to work**
-1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
 2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/pen/YrdRLa)]
 
 
@@ -104,7 +147,7 @@ This project is harder than it looks - no surprise. Partly because coding is wor
 I'm not giving up. That would be silly. Also, I am confident I could closely duplicate this page if I was allowed to use CSS. I know how to code grey boxes. But I am interested in doing it the bootstrap way. Knowing that something can be done keeps my will alive. 
 
 **Link(s) to work**
-1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/ddcornwall/full/YrdRLa/)]
+1. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
 2. [Mahatma Gandhi Tribute Page (https://codepen.io/ddcornwall/pen/OxaqdK)]
 
 
