@@ -1,5 +1,45 @@
 # 100 Days Of Code - Log
 
+### Day 12: October 24, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Worked on making my icon buttons accessible. Will need to get a screenreader to test. Turned icons into buttons as part of accessibility and that also made rollover colors more obvious. Added first draft of first page section. Realized that Jumbotron was EXACTLY what my portfolio page needed, so will likely work on that tomorrow. 
+
+**Thoughts**: For those wondering, today was a much better experience than yesterday. I also got some feedback from my wise webdev coworker on the need for building in accessibility. So I spent most of today's coding time making the icons accessible. At least I think they're more accessible now. I need to get some screenreader software and get re-briefed on how to use the keyboard for navigation. 
+
+My task list from yesterday, aside from making my icon buttons accessible to screenreaders:
+ 
+1) Make the icons larger
+2) Make them change color on mouse over
+3) Have some roll over text for screenreaders
+ 
+ For problem #1, I found that Font Awesome had classes to enlarge the icons, so I set them to 2x.
+ For problem #2, I initially stuck in css to make the li element blue on mouseover, but I didn't need to do that after I made them button class.
+ For problem #3, I put in tooltips. But that probably won't help screenreaders. Fortunately I found that I could combine a "visuallyhidden" class with some helptext. That ought to be accessible to screenreaders.
+ 
+ Having dispatched (mostly) the button problems, I moved on to thinking about putting actual content on my portfolio. Searching around for "portfolio tips" I found the bootstrap jumbotron class. After adding a draft section to my portfolio page I realized that this was the EXACT background and typography of the Borlaug tribute page (https://codepen.io/freeCodeCamp/full/NNvBQW). Gray background, larger text than I could get with my h1 header, etc. This is so much more elegant than mucking around with panels that I will likely spend tomorrow's coding time in part redoing my tribute page. I don't expect it to take too long. 
+ 
+After redoing the tribute page, I'll focus on deciding what sections I want for my portfolio, using the Rosenblum page for ideas. 
+ 
+
+**Links that helped me get stuff done**
+1. [Accessible Icon Buttons - video  (https://egghead.io/lessons/css-accessible-icon-buttons)]
+2. [Places where it's tempting to use display:none but don't  (https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/)]
+3. [What's the difference between HTML 'hidden' and 'aria-hidden' attributes?
+  (https://stackoverflow.com/questions/31107040/whats-the-difference-between-html-hidden-and-aria-hidden-attributes)]
+4. [How to set the size of the button in HTML  (https://stackoverflow.com/questions/25014849/how-to-set-the-size-of-button-in-html)]
+5. [Jumbotron  (https://getbootstrap.com/docs/3.3/components/#jumbotron)]
+6. [Font Awesome Examples (http://fontawesome.io/examples/)]
+7. [Bootstrap tooltip (https://www.w3schools.com/bootstrap/bootstrap_tooltip.asp)]
+
+**Link(s) to work**
+1. [My Porfolio page  (https://codepen.io/ddcornwall/full/zEQELW/)]
+2. [Itamar Rosenblum Portfolio page (https://codepen.io/ItamarRosenblum/full/eGozMa/)] - I'm using this for my example, but will have a different color scheme. 
+3. [FCC provided example that had broken images as of 10/23/2017 (https://codepen.io/freeCodeCamp/full/YqLyXB)]
+
+
+
+
+
 ### Day 11: October 23, 2017 - Time spent, 2 hours 5 minutes
 
 UPDATE 4pm Alaska Time: Did actually spend time after grocery shopping coding. My icons are now larger and have rollover descriptions. I couldn't get the icons to simply change color, so for now their background turns blue on mouseover. My total coding time today was 2 hours. 
