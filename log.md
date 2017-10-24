@@ -1,6 +1,8 @@
 # 100 Days Of Code - Log
 
-### Day 11: October 23, 2017 - Time spent, 1 hour 15 minutes
+### Day 11: October 23, 2017 - Time spent, 2 hours 5 minutes
+
+UPDATE 4pm Alaska Time: Did actually spend time after grocery shopping coding. My icons are now larger and have rollover descriptions. I couldn't get the icons to simply change color, so for now their background turns blue on mouseover. My total coding time today was 2 hours. 
 
 SPECIAL NOTE: I see that since Day 5 I gave the wrong URL for the Borlaug tribute. It should be https://codepen.io/freeCodeCamp/full/NNvBQW. I have fixed this in the github log. 
 
@@ -35,7 +37,8 @@ When I started today, a day off for me, I was expecting the process to go someth
 1. [FCC Forum: Portfolio… JS? Where to start? (https://forum.freecodecamp.org/t/portfolio-js-where-to-start/22039)]
 2. [W3Schools Bootstrap NavBar (https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)]
 3. [W3Schools Font Awesome (https://www.w3schools.com/icons/fontawesome_icons_brand.asp)]
-
+4. [W3Schools Bootstrap Tootips   (https://www.w3schools.com/bootstrap/bootstrap_tooltip.asp)]
+5. [Font Awesome examples (http://fontawesome.io/examples/)] - Helped to enlarge icons.
 
 **Link(s) to work**
 1. [My Porfolio page  (https://codepen.io/ddcornwall/full/zEQELW/)]
