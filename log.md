@@ -4,7 +4,7 @@
 
 **Today's Progress**: Rebuilt my Gandhi tribute page with Jumbotron. Used more "read/search" to find ways to tweak the jumbotron and figure elements into looking more like Borlaug tribute. 
 
-**Thoughts**:  There is a joy when you find the right tool for the job and you can eliminate all of the creaky workarounds you had been using. The display looks cleaning and the code looks cleaner. And I got this far without looking at the Borlaug code. I discovered Jumbotron on my own while looking for ideas on the Portfolio project. 
+**Thoughts**:  There is a joy when you find the right tool for the job and you can eliminate all of the creaky workarounds you had been using. The display looks cleaner and the code looks cleaner. And I got this far without looking at the Borlaug code. I discovered Jumbotron on my own while looking for ideas on the Portfolio project. 
 
 There is only one oddity left that the Borlaug tribute does not share. When I look at my tribute page on my Google Pixel phone in Chrome in portrait mode, the image of Gandhi is not center. BUT if you turn the phone to landscape mode, the image is centered. The image is centered on the desktop versions of Microsoft Edge, Firefox and Chrome.
 
