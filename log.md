@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 13: October 25, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Rebuilt my Gandhi tribute page with Jumbotron. Used more "read/search" to find ways to tweak the jumbotron and figure elements into looking more like Borlaug tribute. 
+
+**Thoughts**:  There is a joy when you find the right tool for the job and you can eliminate all of the creaky workarounds you had been using. The display looks cleaning and the code looks cleaner. And I got this far without looking at the Borlaug code. I discovered Jumbotron on my own while looking for ideas on the Portfolio project. 
+
+There is only one oddity left that the Borlaug tribute does not share. When I look at my tribute page on my Google Pixel phone in Chrome in portrait mode, the image of Gandhi is not center. BUT if you turn the phone to landscape mode, the image is centered. The image is centered on the desktop versions of Microsoft Edge, Firefox and Chrome.
+
+Since the Borlaug tribute page DOES center in the mobile version of Chrome, I assume that I have missed one last trick. Not sure if I'm going to work that tomorrow, but probably should. If I were a professional developer, having an uncentered image on a common mobile center is something that should not be tolerated. 
+ 
+
+**Links that helped me get stuff done**
+1. [Jumbotron  (https://getbootstrap.com/docs/3.3/components/#jumbotron)]
+2. [The Anti-hero of CSS Layout - "display:table" (https://colintoh.com/blog/display-table-anti-hero)]
+
+**Link(s) to work**1. 
+1. [My "post-submission" tribute page (https://codepen.io/ddcornwall/full/jGgOGm/)]
+2. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
+
+
 ### Day 12: October 24, 2017 - Time spent, 1 hour
 
 **Today's Progress**: Worked on making my icon buttons accessible. Will need to get a screenreader to test. Turned icons into buttons as part of accessibility and that also made rollover colors more obvious. Added first draft of first page section. Realized that Jumbotron was EXACTLY what my portfolio page needed, so will likely work on that tomorrow. 
