@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 14: October 26, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Added anchors to sections in my portfolio form. Added non-working contact form at bottom of page.  
+
+**Thoughts**:  After a short examination of the Borlaug code to see if I could improve the mobile display of my tribute page, I shelved that issue in favor of working on my portfolio page. This decision was easier knowing that a friend say a centered image in her mobile browser. I'll definitely keep an eye open to alternative ideas about my tribute image issue.
+
+Portfolio page was mostly straightforward, adjusted for bootstrap. I am grateful for all the blog and forum posts around the net. They do make it much easier to track down the source of errors and their solutions. 
+
+Tomorrow I plan to work more on my contact form. I ALMOST have it submitting as a mailto link, but not quite. Then I will look into styling my sections and creating placeholders for my work. 
+ 
+
+**Links that helped me get stuff done**
+1. [Portfolio Challenge: //#sourceURL:pen.js message  (https://forum.freecodecamp.org/t/portfolio-challenge-sourceurl-pen-js-message/154462)]
+2. [Fix bootstrap anchor tags position using fixed nav bars   (https://www.servermule.com.au/help/bootstrap-anchors-fixed-nav/)]
+3. [Bootstrap Forms (https://www.w3schools.com/bootstrap/bootstrap_forms.asp)]
+4. [HTML Input Types (https://www.w3schools.com/tags/att_input_type.asp)]
+5. [HTML Input Size (https://www.w3schools.com/tags/att_input_size.asp)]
+6. [HTML Form Try It (https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail)]
+
+**Link(s) to work**
+1. [My Porfolio page  (https://codepen.io/ddcornwall/full/zEQELW/)]
+2. [Itamar Rosenblum Portfolio page (https://codepen.io/ItamarRosenblum/full/eGozMa/)] - I'm using this for my example, but will have a different color scheme. 
+3. [FCC provided example that had broken images as of 10/23/2017 (https://codepen.io/freeCodeCamp/full/YqLyXB)]
+
+
 ### Day 13: October 25, 2017 - Time spent, 1 hour
 
 **Today's Progress**: Rebuilt my Gandhi tribute page with Jumbotron. Used more "read/search" to find ways to tweak the jumbotron and figure elements into looking more like Borlaug tribute. 
@@ -15,7 +40,7 @@ Since the Borlaug tribute page DOES center in the mobile version of Chrome, I as
 1. [Jumbotron  (https://getbootstrap.com/docs/3.3/components/#jumbotron)]
 2. [The Anti-hero of CSS Layout - "display:table" (https://colintoh.com/blog/display-table-anti-hero)]
 
-**Link(s) to work**1. 
+**Link(s) to work** 
 1. [My "post-submission" tribute page (https://codepen.io/ddcornwall/full/jGgOGm/)]
 2. [Dr. Norman Borlaug Tribute Example that end product should look like  (https://codepen.io/freeCodeCamp/full/NNvBQW)]
 
