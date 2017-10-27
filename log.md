@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 15: October 27, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Added content to portfolio page, spent unproductive time troubleshooting a very odd formatting error. 
+
+**Thoughts**:  Head, meet wall. Something I've done on my portfolio page caused my left margin to disappear and the page to overwrite how the ul tag normally works. I tried my usual search/read approach but I'm not finding the right vocabulary. I know the list code itself is sound because it works when copied into a blank pen. It still kept working when I added bootstrap and my css into the new pen. In my portfolio page, the list item style works if I take off the ul tag.
+
+Very odd and I don't have more time this morning to deal with it. Unless I have a brillent idea, I may start the portfolio page over, adding elements bit by bit until I find what breaks my margins and list style. 
+
+**Link(s) to work**
+1. [My Porfolio page  (https://codepen.io/ddcornwall/full/zEQELW/)]
+2. [Itamar Rosenblum Portfolio page (https://codepen.io/ItamarRosenblum/full/eGozMa/)] - I'm using this for my example, but will have a different color scheme. 
+
+
 ### Day 14: October 26, 2017 - Time spent, 1 hour
 
 **Today's Progress**: Added anchors to sections in my portfolio form. Added non-working contact form at bottom of page.  
