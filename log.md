@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 16: October 28, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Figured out my formatting issues. Can make better progress tomorrow. 
+
+**Thoughts**:  Through what's best described as iterative fiddling around, I solved both of my formatting issues:
+
+Problem 1 - All content is glued to left margin. Solution, put it into a fluid container element. 
+Problem 2 - Why doesn't the $##%#$@@ ul tag work like it's supposed to? Solution, realized I may have accidently added the "materialize css" behind the scenes. I say "may have accidentally" because I can't find anything in my notes telling me I needed it. Once I removed it, the formatting problem went away. Also my social media buttons changed color. But an acceptable trade for now. 
+
+Also, I'm noticing that my links here in the github log, and presumably in Wordpress are malformed because github tagged a closing brack as the last character of the URL. So I'm dropping the parens for URLs. 
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
+
+
 ### Day 15: October 27, 2017 - Time spent, 1 hour
 
 **Today's Progress**: Added content to portfolio page, spent unproductive time troubleshooting a very odd formatting error. 
@@ -9,7 +25,7 @@
 Very odd and I don't have more time this morning to deal with it. Unless I have a brillent idea, I may start the portfolio page over, adding elements bit by bit until I find what breaks my margins and list style. 
 
 **Link(s) to work**
-1. [My Porfolio page  (https://codepen.io/ddcornwall/full/zEQELW/)]
+1. [My Porfolio page  (https://codepen.io/ddcornwall/full/zEQELW/]
 2. [Itamar Rosenblum Portfolio page (https://codepen.io/ItamarRosenblum/full/eGozMa/)] - I'm using this for my example, but will have a different color scheme. 
 
 
