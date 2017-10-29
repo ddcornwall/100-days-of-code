@@ -1,5 +1,42 @@
 # 100 Days Of Code - Log
 
+<!--Template for log -->
+### Day 17: October 29, 2017 - Time spent, 1 hour 20 minutes
+
+**Today's Progress**:   
+
+**Thoughts**:   
+ 
+
+**Links that helped me get stuff done**
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
+
+<!--End Template for log-->
+
+### Day 17: October 29, 2017 - Time spent, 1 hour 20 minutes
+
+**Today's Progress**: Defined bootstrap rows for work examples. Added photography work examples with links back to github. Added styled photo to "About" section and defined columns so that text would be next to photograph. 
+
+**Thoughts**: I feel accomplished today now that I'm in coding mode as opposed to troubleshooting mode. I knew my next step was to lay out the grid for my work examples, even if I didn't have all the images and links ready. I started off by looking for portfolio grids and found a few examples. I almost did cut and paste from one of those, but remembered it is often more rewarding to build as much from scratch as possible. So I stepped back and reviewed bootstrap grids. I'm still getting the hang of rows and columns and making everything in a row to add up to twelve columns, but that clearly was the way to go. 
+
+After the grid was lined up, I figured I'd try inserting my photography examples first partly because I had them handy. Along the way I learned the power of img-thumbnail to tame images that wanted to display across columns. For the next two sets of work, I need to take and edit some screenshots, I think. 
+
+Taking a few moments to look at the Rosenblum portfolio listed below, I was impressed with how his screenshots changed as you mouseover. That's an effect I think I might want to have. I also need to get back to my form and get it to actually do something. It would also be nice if the boxes did not go clear across the screen. 
+ 
+
+**Links that helped me get stuff done**
+1. Bootstrap Grid Video (YouTube) - https://www.youtube.com/watch?v=GDwWmrpCa30
+2. Bootstrap images - https://www.w3schools.com/bootstrap/bootstrap_images.asp
+
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
+
+
 ### Day 16: October 28, 2017 - Time spent, 1 hour
 
 **Today's Progress**: Figured out my formatting issues. Can make better progress tomorrow. 
