@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-<!--Template for log -->
+<!--Template for log
 ### Day 17: October 29, 2017 - Time spent, 1 hour 20 minutes
 
 **Today's Progress**:   
@@ -14,7 +14,7 @@
 1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
 2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
 
-<!--End Template for log-->
+End Template for log-->
 
 ### Day 17: October 29, 2017 - Time spent, 1 hour 20 minutes
 
