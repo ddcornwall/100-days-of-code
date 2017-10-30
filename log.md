@@ -16,6 +16,27 @@
 
 End Template for log-->
 
+### Day 18: October 30, 2017 - Time spent, 1hr
+
+**Today's Progress**: Made my own placeholder images, added them to work examples template, styled form better and figured out how to post code to Free Code Camp (FCC) forum. Posted my first FCC forum question.   
+
+**Thoughts**:  It's a constant struggle to not get fixated on content during my coding time. I was going to take screenshots of what I intended to link to on my portfolio page. I realized that placeholder images would be a better use of my time, then promptly got hung up on finding the "right kind" of placeholder images from "reputable sites." Fortunately I didn't stay in that rabbit hole too long. I realized that I had several image creation tools at my disposal. Two minutes later, I had a 400x200 placeholder image which I dropped into my code, then copy and pasted as needed. 
+
+It's important to be careful with your copy and paste or you may wind up with a div tag too many or too few. This WILL change the look of your page. 
+
+With my basic gallery in place, I once again considered my contact form and its styling. It was relatively easy once I remembered that "height" and "width" are attributes you can give to nearly any HTML element and now I'm mostly happy with the look of the form. My one remaining concern with the LOOK of the form is that while the message area is a satisfying box text input begins in the middle of the box and does not wrap when it hits the end. Ideally I'd like text entry to begin at the top of my box and for the text to move to the next line when it hits the end of the box. 
+
+What's more important is that my form does not do anything real at this point. You can fill it out and when you hit the submit button your default e-mail program is launched with my e-mail address. But that's all that appears in the e-mail. The e-mail SHOULD have all the fields you filled out. I've compared my code to working examples on the web, but can't find a problem. It's like Dr. McCoy on Star Trek - "Jim according to my tricorder, this dead man should be perfectly healthy." 
+
+That led me to my last accomplishment, asking a question on the Free Code Camp (FCC) forum. I learned to use three dots together (...) before and after my code to make it display to others. I hope someone has some ideas. 
+
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
+
+
+
 ### Day 17: October 29, 2017 - Time spent, 1 hour 20 minutes
 
 **Today's Progress**: Defined bootstrap rows for work examples. Added photography work examples with links back to github. Added styled photo to "About" section and defined columns so that text would be next to photograph. 
