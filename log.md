@@ -16,6 +16,31 @@
 
 End Template for log-->
 
+### Day 19: October 31, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Figured out background image for Jumbotron. Identified problem with navbar display in mobile.   
+
+**Thoughts**: I'm setting aside my form work for now because so far I haven't found anything helpful through read/search/ask. 
+
+Having put aside further work on the contact form, I started out looking at ways to get hover effects for my project thumbnails and I found some promising material. Along the way though I found the command to add a background image to any HTML element. So I browsed though my pictures, picked one with a lot of sky, did some editing, uploaded it to Github and added to my Jumbotron element. 
+
+I do my development on a laptop and I decided to see how my portfolio page displayed on mobile. I run Android on a Google Pixel and the default browser is Chrome. My navbar covers three quarters of the screen. Tonight or tomorrow I need to work on fixing that. 
+
+I learned new things today. That makes me happy. 
+ 
+
+**Links that helped me get stuff done**
+1. CSS Image Overlay - https://www.w3schools.com/howto/howto_css_image_overlay.asp
+2. CSS Hero Image - https://www.w3schools.com/howto/howto_css_hero_image.asp
+3. CSS image hover effects - http://www.corelangs.com/css/box/hover.html (ironically, helped me with background image on jumbotron section).
+4. CSS Background Size - https://www.w3schools.com/cssref/css3_pr_background-size.asp
+
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
+
+
 ### Day 18: October 30, 2017 - Time spent, 1hr
 
 **Today's Progress**: Made my own placeholder images, added them to work examples template, styled form better and figured out how to post code to Free Code Camp (FCC) forum. Posted my first FCC forum question.   
