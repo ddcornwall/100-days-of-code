@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### Day 17: October 29, 2017 - Time spent, 1 hour 20 minutes
+### Day 20: November 1, 2017 - Time spent, 1 hour
 
 **Today's Progress**:   
 
@@ -15,6 +15,35 @@
 2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
 
 End Template for log-->
+
+### Day 20: November 1, 2017 - Time spent, 1 hour 
+
+**Today's Progress**: Rebuilt Navbar to collapse and be a bit more accessible. Removed background image from Jumbotron because not optimal for accessibility. Also learned that order of loading components matters. 
+
+**Thoughts**: Some of my most important work came yesterday when a friend and coworker forwarded me a newsletter on web accessibility. I've listed the two articles in the "Links that helped me get stuff done" section below. There might be a problem with their server this morning as images were not displaying. The alt-text article is going to be VERY helpful to me in future efforts. It was written by a person with vision impairments who uses a screenreader. He had lots of suggestions that made total sense once I heard them but wouldn't have occurred to me as a sighted person. 
+
+The second article "Trends that Exclude" talked about a number of popular web design ideas that really make life difficult for people with disabilities. I STRONGLY urge you to read it. One of the biggest was having text over photographs and another was icon only buttons. So I've eliminated these two features from my portfolio page. Right now I have a hybrid of text over icon. Not sure if I like it. I may convert them to regular links or text only buttons. 
+
+As I mentioned yesterday that major work of today was to get a menu bar to collapse in the mobile view. After adding Javascript and JQuery to my codepen, plus some more read/search, I got that to work. I chose to have it collapse to a button labeled "Menu" instead of the traditional "hamburger menu" which I know know is made of three icon bars. This is another effort at accessibility, not just for screenreaders but for internet newbies. I have had to point out hamburger menus to so many people. It's not intuitive until you have been on the internet for awhile. I realize that "Menu" priveleges English readers but 1) Most of the pages I create will be in English and 2) They can use Google to translate the page and get the word "menu" in their own language.
+
+Getting the menu to collapse was tedious but straightforward. Then it wouldn't open. Checked my code a few times. No dice. I commented out my navbar and inserted what was promised to be a working code example from W3Schools. No dice. It collapsed but could not expand. After some more read/search, I found the last item on my "Links that helped me get stuff done" list. The first answer on the page wasn't relevant to my code, but the second was:
+
+"Then I changed the order so that bootstrap.min.js came after jquery.min.js, and this solved the problem. I don't know enough about javascript to explain why this caused the problem (or fixed it), but that is what worked for me."
+
+I don't know enough about it either, but I made the switch and the menu worked. It collapses to a button called "menu" on small displays and the buttons work. 
+
+First task for tomorrow revisit the "alt" text on all may images and make sure they're descriptive and don't start off with "image of." Then I need to think about how to lay out the page so that it is both accessible and reasonably nice to look at. I'll probably looking for examples of accessible portfolio pages. If you have any you like, let me know!
+ 
+
+**Links that helped me get stuff done**
+1. Very helpful article on Alt-Text - https://axesslab.com/alt-texts/
+2. Trends That Exclude - https://axesslab.com/trends/
+3. bootstrap 3 navbar collapse button not working -
+ https://stackoverflow.com/questions/20719607/bootstrap-3-navbar-collapse-button-not-working
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+
 
 ### Day 19: October 31, 2017 - Time spent, 1 hour
 
