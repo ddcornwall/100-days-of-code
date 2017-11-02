@@ -3,18 +3,49 @@
 <!--Template for log
 ### Day 20: November 1, 2017 - Time spent, 1 hour
 
-**Today's Progress**:   
+**Today's Progress**:  
 
-**Thoughts**:   
+**Thoughts**: 
+
+
  
 
 **Links that helped me get stuff done**
 
+
 **Link(s) to work**
 1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
-2. Itamar Rosenblum Portfolio page - https://codepen.io/ItamarRosenblum/full/eGozMa/ - I'm using this for my example, but will have a different color scheme. 
+2. Free Code Camp (FCC) Portfolio example - https://codepen.io/freeCodeCamp/full/YqLyXB - Seemed to be working as of 11/2/2017.
 
 End Template for log-->
+
+### Day 21: November 2, 2017 - Time spent, 1 hour 15 min.
+
+**Today's Progress**:  Fixed alt text of images. Redid social media buttons and moved them to bottom of page. Moved picture of me out of "about" and into jumbotron. Resolved a problem with Jumbotron display in mobile. Changed portfolio rows for web pages and research guides from three to two to allow for larger thumbnails.
+
+**Thoughts**: Can hardly believe I'm three weeks into this learning experience! And I'm definitely more comfortable coding than when I started. I feel like I've really improved at using the bootstrap grid system to arrange items on my page and within sections. I've also gotten more comfortable working with "div" and understanding its power. I've also learned to check the mobile presentation of my work at least once a coding session. 
+
+There are several formatting issues I need to look into. I suspect I might not be using containers correctly. I especially need to look more closely at the "work examples" section. Another issue is how my buttons look. I don't like them as small as they are on the desktop, but when I used padding to make them larger on the desktop, it really messed up the text of the buttons on mobile. 
+
+I wouldn't use buttons at all except that is a "user story" in the FCC exercise. Left to my own devices, I would make them links in my top menu bar. I do like that I ditched icons for words. I think this will be better for the newbie and sight challenged. 
+
+Challenges for the coming days:
+- Resolve margin display issues, especially for work examples. 
+- Make top menu items highlight on mouseover. Bonus - get them to light up as you scroll through the page. 
+- Go back to e-mail form, this time finding a way to link the form to an e-mail server so no mail client needed.
+- Revisit social media button issue - can we make it pretty(ish) on desktop and still have workable mobile display?
+- After look and feel issues dealt with, update page with content instead of placeholders. 
+ 
+**Links that helped me get stuff done**
+1. Very helpful article on Alt-Text - https://axesslab.com/alt-texts/
+2. CSS Buttons - https://www.w3schools.com/css/css3_buttons.asp
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Free Code Camp (FCC) Portfolio example - https://codepen.io/freeCodeCamp/full/YqLyXB - Seemed to be working as of 11/2/2017.
+3. FCC Portfolio Exercise - https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage
+
+
 
 ### Day 20: November 1, 2017 - Time spent, 1 hour 
 
