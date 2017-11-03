@@ -19,6 +19,42 @@
 
 End Template for log-->
 
+### Day 22: November 3, 2017 - Time spent, 1 hour.
+
+**Today's Progress**:  Fixed Work Examples formatting on Free Code Camp (FCC) portfolio project. Discovered borders to insert a green line into my intro. Found a number of ways how NOT to change my nav menu so hover is more obvious. Joined Stack Overflow even though I think I all have to offer is upvotes for solutions that worked for me. 
+
+**Thoughts**:  Here is my portfolio project to-do list from yesterday:
+
+     1) Resolve margin display issues, especially for work examples. 
+     2) Make top menu items highlight on mouseover. Bonus - get them to light up as you scroll through the page. 
+     3) Go back to e-mail form, this time finding a way to link the form to an e-mail server so no mail client needed.
+     4) Revisit social media button issue - can we make it pretty(ish) on desktop and still have workable mobile display?
+     5) After look and feel issues dealt with, update page with content instead of placeholders. 
+ 
+I got problem #1 (Margin display) knocked out pretty quickly. It was a matter of inspecting my work examples code closely and realizing that I had extra /div tags in my second and third rows. Once I took those out, the page formatted correctly.  I suspect my problem arose from writing the first row from scratch and then copying and pasting to create the remaining rows. I must have picked up a /div tag further down my code. 
+
+Then I moved on to getting my menu items to highlight better when moused over, with the secondary aim of getting the top buttons to light when you scrolled down to that section. I picked up and tried several solutions that should have worked but did not. Eventually I figured out that the bootstrap nav/navbar styling was overriding my css efforts. A few Stack Overflow threads stressed the importance of loading the customizing CSS AFTER Bootstrap which makes perfect sense to me. But I'm not sure how to make that work in codepen if your CSS window isn't loading after Bootstrap.
+
+One possibility I thought of after writing that paragraph is to write some custom css on Github and then add it through CodePen's external CSS - after Bootstrap! I have to go to work now, but it's worth trying tomorrow. Not that I want to override Bootstrap too much. But if there's another way to get what I want within Bootstrap, I'm not seeing it. 
+
+Another way I could override Bootstrap is with some JQuery, since you can use it to select items and add classes. That's another thing to think about more later. Enough thinking out loud for now!
+ 
+ 
+**Links that helped me get stuff done**
+1. CSS Borders - https://www.w3schools.com/css/css_border.asp
+2. Highlight Menu Item when Scrolling Down to Section -https://stackoverflow.com/questions/32395988/highlight-menu-item-when-scrolling-down-to-section
+3. How to become a better Stack Overflow user in five simple steps - https://medium.freecodecamp.org/5-steps-to-become-a-better-stack-overflow-user-4ce85711c0f9
+
+
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Free Code Camp (FCC) Portfolio example - https://codepen.io/freeCodeCamp/full/YqLyXB - Seemed to be working as of 11/2/2017.
+3. FCC Portfolio Exercise - https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage
+
+
+
+
 ### Day 21: November 2, 2017 - Time spent, 1 hour 15 min.
 
 **Today's Progress**:  Fixed alt text of images. Redid social media buttons and moved them to bottom of page. Moved picture of me out of "about" and into jumbotron. Resolved a problem with Jumbotron display in mobile. Changed portfolio rows for web pages and research guides from three to two to allow for larger thumbnails.
