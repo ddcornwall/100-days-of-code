@@ -19,6 +19,39 @@
 
 End Template for log-->
 
+### Day 23: November 4, 2017 - Time spent, 1 hour 20 Minutes
+
+**Today's Progress**:  For learning, it was great! I refreshed my JQuery, used it to select almost any element I wanted outside of the navbar. I learned two ways to implement an external style sheet on Codepen to override most of bootstrap. (I chose to use a special codepen. It refreshes immediately.) I refreshed myself on css link selectors. I can make any link outside of my navbar do whatever I want. 
+
+Oh! You meant coding progress! Yeah, not so much. 
+
+**Thoughts**: 
+
+"I have not failed 700 times. I have not failed once. I have succeeded in proving that those 700 ways will not work. When I have
+eliminated the ways that will not work, I will find the way that will work." - Attributed to Thomas Edison on his efforts to create an incandescant light bulb. Likely not original quote. See http://answers.google.com/answers/threadview?id=747226 for context. 
+
+Instead of giving you a blow by blow of trial and effort, let me summmarize:
+
+- Outside of the navbar, I have found several ways to make links do what I want to do.
+- Inside the navbar, I can target "a" elements through both JQuery and CSS, but efforts to change styling based on behavior like a:hover fail. 
+
+On the second point, I read that definitions of a:hover won't take unless it comes after a:link and a:visited. Just to be on the safe side I added definitions to a:link and a:visited above my a:hover just in case. Didn't matter. Didn't think it would since a:hover had worked fine on a link outside the navbar.
+
+I know I can select links inside the navbar because ".nav > li > a" works like a charm. But ".nav > li > a:hover" does not. And yes, my custom style sheet does load after Bootstrap. 
+
+Unless I great crazy inspired or someone drops a hint out of the blue, I'm going to shift to my contact form for awhile, locating a mail server I trust I can connect it to. 
+ 
+
+**Links that helped me get stuff done**
+1. CSS :link Selector - https://www.w3schools.com/cssref/sel_link.asp
+2. Targent HTML elements with selectors using JQuery - https://www.freecodecamp.org/challenges/target-html-elements-with-selectors-using-jquery
+
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Free Code Camp (FCC) Portfolio example - https://codepen.io/freeCodeCamp/full/YqLyXB - Seemed to be working as of 11/2/2017.
+
+
 ### Day 22: November 3, 2017 - Time spent, 1 hour.
 
 **Today's Progress**:  Fixed Work Examples formatting on Free Code Camp (FCC) portfolio project. Discovered borders to insert a green line into my intro. Found a number of ways how NOT to change my nav menu so hover is more obvious. Joined Stack Overflow even though I think I all have to offer is upvotes for solutions that worked for me. 
