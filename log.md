@@ -19,6 +19,47 @@
 
 End Template for log-->
 
+
+### Day 24: November 5, 2017 - Time spent, 1 hour 20 minutes
+
+**Today's Progress**:  Prettied up the "does not work" notice on my contact form. Added textual content to introduction and work examples. Learned more ways not to do things. 
+
+**Thoughts**: Here's my current to-do list for the portfolio page as of yesterday:
+
+1) Make top menu items highlight on mouseover. Bonus - get them to light up as you scroll through the page. 
+2) Go back to e-mail form, this time finding a way to link the form to an e-mail server so no mail client needed.
+3) Revisit social media button issue - can we make it pretty(ish) on desktop and still have workable mobile display?
+4) After look and feel issues dealt with, update page with content instead of placeholders.
+
+As I mentioned yesterday, I hit a wall with my navbar. Something is overriding my efforts to style my navbar links based on :hover. I can affect the base elements just fine, so I know it's not an issue with selecting the right item. Just something in the background that decided it knows best how to treat hover and click behavior. So I decided to let that rest and move on to my contact form.
+
+I don't have a way within CodePen to make the form work. But, it seems that for this particular challenge, the contact form doesn't actually have to WORK. A close reading of the project rules at https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage implies this, but it took the "formspree" discussion listed below to make that clear for me. So I will mark that as done FOR NOW. I will revisit it when I work more on backend development modules and find myself a cheap place to host PHP and Python that provides a production environment. 
+
+Another reason I could use a production environment is for accessibility testing. I actually started this morning's coding session by downloading and installing the WAVE Accessiblity Evaluation tool into Chrome and testing my Free Code Camp (FCC) tribute page. Unfortunately, the tool told me more about CodePen's accessibility issues than my actual page. The report was clearly presented by since a Pen is basically wrapped in CodePen, WAVE didn't see the underlying content. So if I want MY code evaluated, I need to host it elsewhere. As long as I only use HTML/CSS/BootStrap and Javascript, I could use pages.github.com, but I think I want a more general solution. 
+
+Now back to my checklist. After concluding that for THIS exercise, my form is acceptable, I moved back to my social media buttons. Now new ideas there. Maybe I could make them rounded. Still committed to words over icons as an accesssibility and kind to newebies choice. Though I don't know how many newbies would be looking at a developer page. 
+
+So, having looked and not improved items 1-3, I replaced some of my placeholder text with real text. Today I'll probably create real images outside of coding time and upload and link them in my next coding session. I'll also tweak my buttons and do more read/search/ask on my navbar. 
+
+
+
+**Links that helped me get stuff done**
+1) Can JavaScript email a form? - 
+http://javascript-coder.com/javascript-form/javascript-email-form.phtml
+
+2) Formspree - a free working contact form for your portfolio - 
+https://forum.freecodecamp.org/t/formspree-a-free-working-contact-form-for-your-portfolio/32442
+
+3) How can I run my PHP content on GitHub pages? (Spoiler Alert - You Can't) - https://www.quora.com/How-can-I-run-my-PHP-content-on-GitHub-pages
+
+4) WAVE Accessibility Evaluation Tool - http://wave.webaim.org/extension/
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Free Code Camp (FCC) Portfolio example - https://codepen.io/freeCodeCamp/full/YqLyXB - Seemed to be working as of 11/2/2017.
+
+
+
 ### Day 23: November 4, 2017 - Time spent, 1 hour 20 Minutes
 
 **Today's Progress**:  For learning, it was great! I refreshed my JQuery, used it to select almost any element I wanted outside of the navbar. I learned two ways to implement an external style sheet on Codepen to override most of bootstrap. (I chose to use a special codepen. It refreshes immediately.) I refreshed myself on css link selectors. I can make any link outside of my navbar do whatever I want. 
