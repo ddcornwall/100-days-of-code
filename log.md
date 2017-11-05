@@ -19,6 +19,7 @@
 
 End Template for log-->
 
+DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
 ### Day 24: November 5, 2017 - Time spent, 1 hour 20 minutes
 
