@@ -21,6 +21,46 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 25: November 6, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Fulfilled all of the user stories for the Free Code Camp (FCC) assignment, made my social media buttons a little prettier by making them ovals and submitted the Portfolio page. 
+
+**Thoughts**: In my worklife I have worked with coders (mostly webdev, but also few database people). I give them a list of business requirements (at my best) and negociate a rough timeline to get it done. It's usually fine for them to offer refinements in their work but not if it unduly delays project completion. As long as the project meets the basic business requirements, it can be launched and enhancements added later.
+
+In that spirit, I went back to the FCC Portfolio assignment and reminded myself of the user stories that needed to be fulfilled:
+
+1) User Story: I can access all of the portfolio webpage's content just by scrolling.
+2) User Story: I can click different buttons that will take me to the portfolio creator's different social media pages.
+3) User Story: I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)
+4) User Story: I navigate to different sections of the webpage by clicking buttons in the navigation.
+
+My project does meet all four conditions. I included a few actual thumbnails to give the page a more finished look. Before submitting, I looked over my remaining items from  my to-do list from yesterday :
+
+1) Make top menu items highlight on mouseover. Bonus - get them to light up as you scroll through the page. 
+2) Revisit social media button issue - can we make it pretty(ish) on desktop and still have workable mobile display?
+
+The issue of not being able to change :hover behavior turned out to occur in my buttons as well as the navbar. I did more research into the this question before letting it go again. I also ditched my external style sheet since it was not producing the effects I wanted. I also realized that with the world going mobile, hover effects are becoming less of a big deal. After all, how do you deal with hover on touch screens? If you have ideas, send them my way. 
+
+I used the border radius command to make my social media buttons ovals. 
+
+Learned something fun about the interaction of the bootstrap grid and the "text-center" attribute. I had originally centered my thumbnail captions, but I noticed that it did not look centered correctly on the full laptop screen. Was fine on phones, was fine in the quasi-tablet size of the editor view, but just odd in the full page view. Then I realized that in every case the text was completely centered in it's col-xs-6 column. Rather than fiddle with the images (which I think I tried before), I took away the centering and now the thumbnails plus captions look acceptable.
+
+I deliberately used small file sizes for the images to help with page loading speed. I'd love feedback and whether there's unacceptable pixilation on larger screens. 
+
+After these changes I submitted my page. I think it's decent and meets the business requirements but I'm looking forward to revising it as I learn more. Now on the FCC Javascript coding challenges. 
+
+
+**Links that helped me get stuff done**
+CSS Buttons - https://www.w3schools.com/css/css3_buttons.asp
+
+**Link(s) to work**
+1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
+2. Free Code Camp (FCC) Portfolio example - https://codepen.io/freeCodeCamp/full/YqLyXB - Seemed to be working as of 11/2/2017.
+3. FCC Portfolio Assignment - https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage
+
+
+
+
 ### Day 24: November 5, 2017 - Time spent, 1 hour 20 minutes
 
 **Today's Progress**:  Prettied up the "does not work" notice on my contact form. Added textual content to introduction and work examples. Learned more ways not to do things. 
