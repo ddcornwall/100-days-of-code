@@ -21,6 +21,17 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 26: November 7, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Committed Free Code Camp (FCC) Portfolio page code to GitHub. Worked on FCC Javascript code challenges. Have now completed 157 coding challenges so far.  
+
+**Thoughts**: This has been a nice break. I've been exposed to javascript before. Just not proficient enough to claim it as a skill. Yet. Focused mostly on variable assignment, arithmetic and basic string functions that are common to a lot of programming languages. So far a good review. Expect more new learning soon. 
+
+**Links that helped me get stuff done**
+https://www.freecodecamp.org/
+
+
+
 ### Day 25: November 6, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Fulfilled all of the user stories for the Free Code Camp (FCC) assignment, made my social media buttons a little prettier by making them ovals and submitted the Portfolio page. 
