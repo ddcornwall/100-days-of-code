@@ -21,6 +21,16 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+
+### Day 27: November 8, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Worked up to 185 completed Free Code Camp (FCC) code challenges. Learned more about manipulating arrays in JavaScript and reviewed if-then statements and value comparisons.
+
+**Thoughts**: Some of the Java array stuff really gave me a workout. I'm going to have to work at remembering what shift and unshift to. Pop and push made more sense to me. I might be naive, but it could be I actually do know more JavaScript than I thought I did. At least much seems familiar. Or it's just the product of having a nodding accquaintance with several coding languages. 
+
+**Links that helped me get stuff done**
+1. Free Code Camp - https://www.freecodecamp.org/
+
 ### Day 26: November 7, 2017 - Time spent, 1 hour
 
 **Today's Progress**: Committed Free Code Camp (FCC) Portfolio page code to GitHub. Worked on FCC Javascript code challenges. Have now completed 157 coding challenges so far.  
