@@ -21,6 +21,22 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 28: November 9, 2017 - Time spent, 1 hour 20 minutes
+
+**Today's Progress**:  Brought my Free Code Camp (FCC) completed code challenge count up to to 197. Learned new JavaScript tools like "switch." Figured out one way to partially solve card counting challenge. 
+
+**Thoughts**: On the card counting challenge I haven't run out of ideas, but I have run out of time. I find that I'm most consistent about coding when I do it first thing in the morning. On the plus side, for 28 days I've been consistently coding an hour or so day. Since I have a day job, the downside is that I only code for about an hour or so a day. But I'm happy for the coding time. 
+
+I did figure out part of the card counting challenge. Since 7,8,9 don't affect the card count, I pulled them out of the function proper. Now those work. Tomorrow I'll probably change my code from being switch based to if then based in case I don't understand the new to me switch logic. If that doesn't work, I'll probably spend some pen and paper time working with the algorithm and seeing if I can generate pseudocode for it. 
+
+I'm not discouraged. Actually, after racing though a lot of JavaScript review, when I got to this challenge and didn't get it right off, I thought "FINALLY! A challenge!" For some reason I picture Chris Hemsworth's Thor saying this. Although certainly not in response to a coding challenge. Loki strikes me more as the hacker type. He'd definitely pick up coding if he thought it was a shortcut to global domination. 
+
+Tomorrow is a holiday for me. So I might get in more coding time. It does seem like I will need it!
+ 
+
+**Link(s) to work**
+https://www.freecodecamp.org/challenges/counting-cards
+
 
 ### Day 27: November 8, 2017 - Time spent, 1 hour
 
