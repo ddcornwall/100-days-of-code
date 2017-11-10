@@ -21,6 +21,38 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 29: November 10, 2017 - Time spent, 1 hour 30 minutes
+
+**Today's Progress**: Successfully completed the card sorting challenge. Worked though other Free Code Camp (FCC) coding challenges to raise my completion total to 214. Learned new stuff about JavaScript objects and reviewed loops which is pretty much them same idea in many coding languages. 
+
+**Thoughts**: Typos matter. If you write a letter or e-mail to another human being and there are typos, you will likely be understood. The reader may or may not be judgemental towards you but they will usually understand you. Not so with computers, not so!
+
+Let's start with the card counting challenge. The first thing I did this morning was to take a notebook and some test data and run the algorithm by hand. It worked. Got the results I was supposed to get - really. But my code wasn't running that way. In the FCC environment it is a little hard to tell how your intermediate steps run as they just give you the final line of output. After some additional noodling around, I decided to look at the hint page. Results:
+
+Hint 1 - Yep I did that.
+Hint 2 - Previously done.
+Hint 3 - Yes, I fingured that's how it was done. But my code produces different results.
+
+After that was "spolier alert - here's the solved code." I only looked at it because I felt I had followed all three hints.
+
+Surprise! To my mind, the code solution matched my code exactly! I had already written this and yet it didn't give the same result. For a moment I indulged a fantasy of FCC not running code correctly. But I realized the problem was most likely coder error. Even though I THOUGHT my solution looked like theirs, there must be a typo if I just look hard enough. 
+
+Sure enough. Fixing a missing curly bracket in my switch and realizing that my "copy-paste-edit" approach had left me with two Jacks and no Aces was enough for my output to match the what the challenge asked for. 
+
+Feel free to judge me if you want because I did see the final code and maybe I should have kept just staring at my code after reading through the hints and knowing I had to be on the right track. I'm counting it as a win because I chose the correct elements,the pseudo code of the algorithm was exactly right and the fixes amounted to clerical changes and not a change in approach. But I will spend more time reviewing code for typos in the future. 
+
+Some of the other challenges this morning took longer due to typos of some sort of another. But all (mostly case sensitivity) were resolved without references to hints or code. 
+
+I'm human. I will make mistakes. But on some level it is nice knowing that so far, I'm getting the thinking straight and mostly need to honor punctuation and case sensitivity. 
+
+
+**Links that helped me get stuff done**
+1. FCC Challenge Guide: Counting Cards - https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-counting-cards/16809
+
+**Link(s) to work**
+1. FCC Counting Cards challenge - https://www.freecodecamp.org/challenges/counting-cards
+
+
 ### Day 28: November 9, 2017 - Time spent, 1 hour 20 minutes
 
 **Today's Progress**:  Brought my Free Code Camp (FCC) completed code challenge count up to to 197. Learned new JavaScript tools like "switch." Figured out one way to partially solve card counting challenge. 
