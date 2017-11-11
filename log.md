@@ -21,6 +21,26 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+
+### Day 30: November 11, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Raised the number of completed coding challenges to 216. Learned how to insert "troubleshooting printouts" into Free Code Camp (FCC) code challenges. Worked on FCC Profile lookup. 
+
+**Thoughts**: The FCC Profile Lookup is a challenge that looked straightforward but wasn't. I wound up looking at the hints page BUT NOT THE CODE. I had originally thought that the look up was going to be along the lines of "Using Objects for Lookups" at https://www.freecodecamp.org/challenges/using-objects-for-lookups but I wasn't sure how to go through a compound list like the dating profiles using that. The hint, not so shocking, was to use for loops and equality checks. 
+
+That's where I'm at now, but my code seems to be breaking its loop too early. I figured this out by adding some items to my return statements, including where my loop iteration was. Along the way I also forced the FCC console to accept input of my choosing by reassigning the function's parameters within my function - something that should not should be done in production.
+
+Forcing the parameters to ones of my choosing did demonstrate that I have the equality test and property tests formatted correctly. But my logic in combining them with my loop isn't sound. 
+
+I'm not ready to give up yet. Though I do think I need somewhere to run and display javascript outside of Free Code Camp. I also need to get ready for a still life photography opportunity as there is more to life than coding. If the weather holds I'm also looking forward to seeing the new Thor movie with a few friends of mine. 
+ 
+
+**Links that helped me get stuff done**
+1. freeCodeCamp Challenge Guide: Profile Lookup - https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-profile-lookup/18259
+
+**Link(s) to work**
+1. FCC Profile Lookup - https://www.freecodecamp.org/challenges/profile-lookup
+
 ### Day 29: November 10, 2017 - Time spent, 1 hour 30 minutes
 
 **Today's Progress**: Successfully completed the card sorting challenge. Worked though other Free Code Camp (FCC) coding challenges to raise my completion total to 214. Learned new stuff about JavaScript objects and reviewed loops which is pretty much them same idea in many coding languages. 
