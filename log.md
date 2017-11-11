@@ -22,7 +22,7 @@ End Template for log-->
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
 
-### Day 30: November 11, 2017 - Time spent, 1 hour
+### Day 30: November 11, 2017 - Time spent, 1 hour 30 minutes
 
 **Today's Progress**: Raised the number of completed coding challenges to 216. Learned how to insert "troubleshooting printouts" into Free Code Camp (FCC) code challenges. Worked on FCC Profile lookup. 
 
