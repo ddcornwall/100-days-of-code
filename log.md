@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### Day 20: November 1, 2017 - Time spent, 1 hour
+### Day 20: November 1, 2017 - Time spent, 1 hour 30 min
 
 **Today's Progress**:  
 
