@@ -21,6 +21,26 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 31: November 12, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Solved the Profile Lookup exercise on Free Code Camp (FCC), raised my completed coding challenges to 227 and learned about general expressions and the beginnings of object oriented programming. Possibly learned how word processors do word counts - using some form of a general expression to find non-whitespace groups of characters. In JavaScript this would be \S+.
+
+**Thoughts**: My problem with the loop in the Profile Lookup exercise is that I had originally tried to combine "no such contact" and "no such property" in my loop. Looking back it should have been obvious that only the first name in the profiles list weould ever return a result about property. So I moved (I thought) the "no such contact" statement outside the loop. The only way the program should get to that statment is if the loop fully executed without finding a name. 
+
+But it still didn't work. Not until I carefully counted all my curly brackets and noted where my (return "no such contact") statement was. As far as the computer was concerned, that was still in the loop, breaking it whenever the first contact wasn't an input. So I moved my curly bracket and the program worked. 
+
+After that, most of the challenges went easy even though many of them covered new-to-me stuff. I've already gotten a health respect for "regular expressions" that can search strings and I'm looking forward to getting in deeper into Object Oriented Programming.
+
+Lastly, I'd like to thank several people on Twitter who let me know that there is a free simple javascript console in most modern browsers. See the links below for details. Learning programming has so much more support these days than when I was in college. 
+
+
+ 
+
+**Links that helped me get stuff done**
+1. How To Use the JavaScript Developer Console - https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-developer-console
+2. How can I run JavaScript programs in my computer offline?! - https://www.codecademy.com/en/forum_questions/55edac31d3292f78cc000080 (This covered "control-enter" to get yourself new lines to write multline Javascript in the command line console. )
+
+
 
 ### Day 30: November 11, 2017 - Time spent, 1 hour 30 minutes
 
