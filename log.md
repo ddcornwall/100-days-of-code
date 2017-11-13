@@ -21,6 +21,24 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 32: November 13, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Raised completed Free Code Camp Challenges up to 238. Hit the first of the Algorithm Challenges. Started solving the "Reverse a String" challenge. Along the way learned more about JavaScript arrays. Though I'm not sure why anyone would want to reduce an array.
+
+**Thoughts**: Happy that I'm still coding away. Grateful for FCC's explanation of the algorithm challenges and how they expected them to be frustrating. Reverse a String was easy enough to put into pseudocode and I thought FCC's "helpful links" were generous. It took me a bit to figure out how to get the string into an array. My first guess was to try and using the str.split function with a regular expression for a non-space character but that gave me error messages. I decided I was overthinking things and used a for loop with string and array index values to get the string into an array. 
+
+I have to get ready for work soon, so I didn't finish the challenge. But I feel pretty clear on how to reverse the array, convert it back to a string and return the reversed string. 
+
+I have a feeling that I'll be writing a lot of pseudocode over the next few weeks. 
+
+**Links that helped me get stuff done**
+1. String -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String 
+
+**Link(s) to work**
+1. https://www.freecodecamp.org/challenges/reverse-a-string
+
+
+
 ### Day 31: November 12, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Solved the Profile Lookup exercise on Free Code Camp (FCC), raised my completed coding challenges to 227 and learned about general expressions and the beginnings of object oriented programming. Possibly learned how word processors do word counts - using some form of a general expression to find non-whitespace groups of characters. In JavaScript this would be \S+.
