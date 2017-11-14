@@ -21,6 +21,29 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 33: November 14, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Completed Free Code Camp (FCC) the "Reverse a String" challenge.  Started a Github repository for my code solutons at https://github.com/ddcornwall/fcc-algorithm-challenges/tree/master. Began Factoralize A Number challenge, much harder than it looks. Started looking at recursion. 
+
+**Thoughts**: Definitely feeling challenged and learning new things. I went through several iterations of loops that gave results either much below target or many orders of magnitude above target. Looked at hints and started wrapping my brain around recursion. I HIGHLY recommend the YouTube video listed below. The instructor is both clear and funny. I feel like I now understand the concept, but my implementation is going to take a lot more work. 
+
+The factorialization problem is a great example of something that can be explained to a human being quite quickly but difficult to get across to a computer. 
+
+Now, off to work for me. 
+
+**Links that helped me get stuff done**
+1. Array.prototype.join() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join - Knowing about inserted separators was important. 
+
+2. freeCodeCamp Algorithm Challenge Guide: Factorialize A Number - https://forum.freecodecamp.org/t/freecodecamp-algorithm-challenge-guide-factorialize-a-number/16013
+
+3. Recursion (Fun Fun Function) - https://youtu.be/k7-N8R0-KY4
+
+**Link(s) to work**
+1. https://www.freecodecamp.org/challenges/reverse-a-string
+
+
+
+
 ### Day 32: November 13, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Raised completed Free Code Camp Challenges up to 238. Hit the first of the Algorithm Challenges. Started solving the "Reverse a String" challenge. Along the way learned more about JavaScript arrays. Though I'm not sure why anyone would want to reduce an array.
