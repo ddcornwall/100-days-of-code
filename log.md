@@ -21,6 +21,26 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 34: November 15, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Figured out all but one case of the Free Code Camp (FCC) Factorialize a Number challenge. Installed Node js on my laptop. Committed the "all but 0" version of my solution to my Github repository. 
+
+**Thoughts**: Recursion was definitely the ticket for this challenge. It's so weird to have a function call itself, but it works. Unless you ask it to factorialize 0. Then it returns "undefined" even though I have a return statement that should take care of that.
+
+I decided that the developer console was too clunky for me, so after a bit of research I settled on node js. I had to review the documentation a little before I got actual output from my code, but it is nice to be able to write in notepad and see the full execution of my scripts instead of just the last line. At some point, I will need to move from console.log in progress to actual return statements so that FCC will accept my work. 
+
+**Links that helped me get stuff done**
+1. Installing Node.js Tutorial: Windows - http://nodesource.com/blog/installing-nodejs-tutorial-windows/
+
+2. Getting started in developing Node.js in Windows by AJ Bubb - http://www.altifysoftware.com/developing-node-js-in-windows/
+
+3. Recursion (Fun Fun Function) - https://youtu.be/k7-N8R0-KY4
+
+**Link(s) to work**
+1. https://www.freecodecamp.org/challenges/factorialize-a-number
+
+
+
 ### Day 33: November 14, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Completed Free Code Camp (FCC) the "Reverse a String" challenge.  Started a Github repository for my code solutons at https://github.com/ddcornwall/fcc-algorithm-challenges/tree/master. Began Factoralize A Number challenge, much harder than it looks. Started looking at recursion. 
