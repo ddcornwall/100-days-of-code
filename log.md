@@ -21,6 +21,31 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+
+### Day 35: November 16, 2017 - Time spent, 1 hour 30 minutes
+
+**Today's Progress**:  Got a working Factorialize a Number program in node.js, but cannot get Free Code Camp (FCC) to accept it. Did various troubleshooting and read documentation for Javascript return statement and node.js. Submitted a help question to the FCC forum. 
+
+**Thoughts**: So now I have working code in node.js, but not in FCC. I've added the working version to my Github repo for the algorithm projects. There was a lot of read/search this morning. Since I started my log entry, I got one response to my forum question. It is helpful in understanding part of why FCC isn't accepting my code, but doesn't get me further along. The respondent pointed out I had declared a global variable, therefore, FCC was storing the previous value of my function calls. This does make sense, but doesn't explain why nothing at all is being returned to the console. 
+
+Speaking of "no returns", I can't get node.js to display ANYTHING in a return statement, not even ```return("Hello World");``` I had to use console.log statements to verify my code is working. So far my node.js research has not turned up an answer to this problem. 
+
+**Links that helped me get stuff done**
+1. Installing Node.js Tutorial: Windows - http://nodesource.com/blog/installing-nodejs-tutorial-windows/
+
+2. Getting started in developing Node.js in Windows by AJ Bubb - http://www.altifysoftware.com/developing-node-js-in-windows/
+
+3. Recursion (Fun Fun Function) - https://youtu.be/k7-N8R0-KY4
+
+4. Return statement in javascript - https://docs.microsoft.com/en-us/scripting/javascript/reference/return-statement-javascript
+
+5. Markdown formatting cheatsheet (for displaying code in FCC and other forums) - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code
+
+**Link(s) to work**
+1. https://www.freecodecamp.org/challenges/factorialize-a-number
+
+
+
 ### Day 34: November 15, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Figured out all but one case of the Free Code Camp (FCC) Factorialize a Number challenge. Installed Node js on my laptop. Committed the "all but 0" version of my solution to my Github repository. 
