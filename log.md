@@ -21,6 +21,21 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 36: November 17, 2017 - Time spent, 1 hour 20 min
+
+**Today's Progress**:  Installed GitHub Desktop and ATOM editor. Syncronized two of my repos on my desktop. Put Free Code Camp (FCC) tribute page into an HTML wrapper. 
+
+**Thoughts**: I didn't get any more responses to my FCC Forum ask on my factorial project and still hadn't noodled out why, despite functional code console.log doesn't work in FCC and "return", while apparently breaking correctly, doesn't work in node.js. Further mystery - why this version of factorial.js won't at least return wrong value in FCC. 
+
+So I decided to let my unconscious work on that problem and set myself the task of setting up an environment where I can publish full web pages instead of codepens. I've done most of the spade work to get started on Github Pages and I've set up github deskstop so I can just push changes to files instead of manually uploading files. It was a bit confusing to figure out how to start working with my pages until I saw a suggestion in Github Desktop to start using the ATOM editor. I did that and started off by putting my tribute page code into an HTML 5 wrapper. Tomorrow I will look up the link to add Bootstrap to it and then try my hand at publishing it as a project page. Then I can test it for accessibility using the WAVE evaluation tool. 
+ 
+
+**Links that helped me get stuff done**
+1. Github pages - https://pages.github.com/
+
+**Link(s) to work**
+https://pages.github.com/ to set up pages. 
+
 
 ### Day 35: November 16, 2017 - Time spent, 1 hour 30 minutes
 
