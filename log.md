@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### Day 20: November 1, 2017 - Time spent, 1 hour 30 min
+### Day 20: November 1, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  
 
@@ -14,12 +14,48 @@
 
 
 **Link(s) to work**
-1. My Porfolio page - https://codepen.io/ddcornwall/full/zEQELW/
-2. Free Code Camp (FCC) Portfolio example - https://codepen.io/freeCodeCamp/full/YqLyXB - Seemed to be working as of 11/2/2017.
+
 
 End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
+### Day 37: November 18, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Successfully migrated my Free Code Camp Tribute page to Github pages. Learned how to sync my local Github repositories to my online account. Tested tribute page with WAVE accessibility checker and began efforts to increase my link contrast. 
+
+**Thoughts**: It was great to have a productive day. I like having a stand alone tribute page. As I suspected, once my code was by itself instead of a CodePen wrapper, WAVE was able to actually analyze my page. I got passing marks for everything except the low contrast of my links. I tried fixing them in a ```<style>``` block that followed my loading of Bootstrap but that didn't change my my link colors. Here's my full "head" code:
+
+```<head>
+  <meta charset="utf-8">
+
+  <title>Mahatma Gandhi - FCC Tribute page</title>
+  <meta name="description" content="Celebration of the life of Mahatma Gandhi, composed as a Free Code Camp (FCC) project. ">
+  <meta name="author" content="Daniel Cornwall">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+<--!To increase link contrast to meet WCAG AA standards.-->
+a {color: 1d1dff;}
+</style>
+
+</head>```
+
+I would have thought that the ```<style``` for a would have overridden the previously loaded Bootstrap, but not so much. The next time I'm coding I'll do more read/search and see what I can come up with. Perhaps for this page I'll abandon Bootstrap since I only need it for the Jumbotron and I've learned some new ways to code background colors easily. But I do want to try first. 
+
+After I resolve the contrast issue, I think my next step is creating a portfolio page on Github pages. Then I'll go back to Factorializing and see if I can get my working algorithm into something that FCC will accept. 
+
+
+ 
+
+**Links that helped me get stuff done**
+1. Github pages - http://pages.github.com
+2. WAVE Accessibility checker - http://wave.webaim.org/extension/
+
+**Link(s) to work**
+FCC Tribute Page - https://ddcornwall.github.io/fcc-tribute/ (Working to increase link contrast) 
+
+
 
 ### Day 36: November 17, 2017 - Time spent, 1 hour 20 min
 
