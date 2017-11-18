@@ -26,7 +26,8 @@ DISCLAIMER - This log will contain typos. For the nicely edited version of my pr
 
 **Thoughts**: It was great to have a productive day. I like having a stand alone tribute page. As I suspected, once my code was by itself instead of a CodePen wrapper, WAVE was able to actually analyze my page. I got passing marks for everything except the low contrast of my links. I tried fixing them in a ```<style>``` block that followed my loading of Bootstrap but that didn't change my my link colors. Here's my full "head" code:
 
-```<head>
+```
+<head>
   <meta charset="utf-8">
 
   <title>Mahatma Gandhi - FCC Tribute page</title>
@@ -39,7 +40,8 @@ DISCLAIMER - This log will contain typos. For the nicely edited version of my pr
 a {color: 1d1dff;}
 </style>
 
-</head>```
+</head>
+```
 
 I would have thought that the ```<style``` for a would have overridden the previously loaded Bootstrap, but not so much. The next time I'm coding I'll do more read/search and see what I can come up with. Perhaps for this page I'll abandon Bootstrap since I only need it for the Jumbotron and I've learned some new ways to code background colors easily. But I do want to try first. 
 
