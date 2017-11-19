@@ -20,6 +20,30 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 38: November 19, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Solved my link color problem. Manipulated link and background color on tribute page until I got a combination that passed the WebAim WAVE evaluation tool. Cloned my portfolio page Github repo in preparation for posting on Github pages. 
+
+**Thoughts**: 
+The first breakthrough was once again paying attention to details. I somehow had missed that I did not put a "#" in front of my color changes. ```{color:23297C;}``` iis worthless but ```{color:#23297C;}``` will actually work. 
+
+Next it took me some time to realize that the contrast tool that came with WAVE wasn't making recommendations on the basis of what my colors actually were. It was just a pallete to play with. Not realizing this I had several go rounds of changing my code to what I thought what WAVE wanted but that didn't affect my scoring. 
+
+I gave some thought to just tossing the issue aside, but I have a friend and coworker who is a strong advocate for accessibility and I could hear their voice in my ear, along with Laura Kalbag, author of "Accessibility for Everyone" telling me accessiblity is not a nice to have, but something that should be built in from the beginning. So I soldiered on and found what was advertised as a WCAG contrast checker (see below) that had you enter values for your background and foreground colors. If you're not comfortable with hex values, it has color pickers. As you vary the colors, buttons below offer pass fails on several contrast scores, including color difference, used in determining suitability for color blindness.
+
+I had to give up on my gray background, because I could not find anything with a gray background that could pass a color difference test. so I have the purplish background. I might fiddle a bit more later. Also while the link color looks good against the purplish background, I think it gets lost on the white background my contact links are on. 
+
+Just now I thought to look up the mobile view of the tribute page. And it looks completely unresponsive. CodePen must have been doing me some behind the scenes favors because I got the mobile view looking ok on that. So improving the mobile look now becomes job one. Sometimes coding feels lack whack-a-mole. 
+
+ 
+
+**Links that helped me get stuff done**
+1.  Changing color of my links in Bootstrap Navbar - https://stackoverflow.com/questions/30633635/changing-the-color-of-the-links-in-my-bootstrap-navbar
+2. Contrast checker - https://contrastchecker.com/
+
+**Link(s) to work**
+1. FCC Tribute page - https://ddcornwall.github.io/fcc-tribute/
+
 ### Day 37: November 18, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Successfully migrated my Free Code Camp Tribute page to Github pages. Learned how to sync my local Github repositories to my online account. Tested tribute page with WAVE accessibility checker and began efforts to increase my link contrast. 
