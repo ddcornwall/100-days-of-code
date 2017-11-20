@@ -20,6 +20,34 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 39: November 20, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed transition of Free Code Camp (FCC) Tribute page from CodePen to standalone web page. Fixed mobile display and found colors that suited me AND passed the WAVE evaluation tool. Put my portfolio page CodePen Code into an HTML wrapper. 
+
+**Thoughts**: This was a productive day and made me think about what might be lurking in the background of the various tools we use. For example, my CodePen portfolio page had acceptable text size in my mobile view, but my standalone page did not. I fixed my text display by using a responsive meta tag (see below). That makes me think that the CodePen site has responsive meta tags as well that my "bundled" CodePen was getting the benefit of. 
+
+I didn't notice the responsive meta tag in my review of "Responsive Design with Bootstrap" at FCC. My searches for "text not resizing in Bootstrap" gave me results on media queries that might have been helpful but I couldn't quite wrap my brain around yet. I'm trying to avoid simply copying and pasting code snippets whose function I don't really understand. So I went back to my CodePen and checked all the behind the scenes settings to make sure I hadn't left something behind. I hadn't, BUT - under HTML settings right underneath the "Stuff for head" window was a button that said "Insert the most common viewport meta tag." So I pressed the button and got:
+
+```<meta name="viewport" content="width=device-width, initial-scale=1">```
+
+I copied and pasted that line into Google and got back the page below. I already knew that "viewport" was basically a device screen size. The "Responsive Meta tag" page explained that the other two values instructed the device to show all of the content within its screen at its default font size setting. These concepts I easily understood and dropped the tag into my standalone page. That took care of text sizes on different screens. I tested my pixel phone with chrome as well as desktop versions of Microsoft Edge, Firefox and Chrome. 
+
+The next step was to reconsider my color scheme. While my purplish background and link colors satisifed the WAVE Evaluation tool, it didn't satisfy ME. So I said goodbye to the Jumbotron, reverted to the original link color and put a border with a 5% margin around my text by inline css in the container-fluid div. I liked the look and the WAVE Evaluator liked the colors. 
+
+Unless I get some major "please fix this" feedback on this page, I'm done for now. At some point, I should double check with a screenreader to back up WAVE's claims and I need to learn more about keyboard navigation. 
+
+My next stop is posting my portfolio page as a standalone web page that looks good in mobile and passes the WAVE Evaluation tool. Then it will be a rebuild of the FCC Factorial exercise. 
+ 
+
+**Links that helped me get stuff done**
+1. Responsive meta tag - https://css-tricks.com/snippets/html/responsive-meta-tag/
+2. WAVE Evaluation tool - http://wave.webaim.org/extension/
+
+**Link(s) to work**
+1. FCC Portfolio page - https://ddcornwall.github.io/portfolio (coming soon!)
+2. FCC Tribute page (completed standalone) - https://ddcornwall.github.io/fcc-tribute/
+
+
 ### Day 38: November 19, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Solved my link color problem. Manipulated link and background color on tribute page until I got a combination that passed the WebAim WAVE evaluation tool. Cloned my portfolio page Github repo in preparation for posting on Github pages. 
