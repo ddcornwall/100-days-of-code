@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### Day 20: November 1, 2017 - Time spent, 1 hour
+### Day 40: November 21, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  
 
@@ -19,6 +19,43 @@
 End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
+### Day 40: November 21, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Successfully transitioned my CodePen portfolio page to standalone. Tested on MS Edge, Chrome, Firefox and on Chrome mobile in Pixel. Tested against WAVE Evaluation tool and issues noted. 
+
+**Thoughts**:  Last night was a misery of coughing and sneezing, but I was determined to code anyway. Despite my illness, I was able to transition my portfolio from CodePen to a standalone site. I commented out my contact form until such time that I connect it up with a mail server. 
+
+In moving the page over, I feel like I've got a good start on a checklist for porting a page or application between platforms:
+
+- Check for dependencies: bootstrap, your own CSS, JQuery, JavaScript, etc.
+- Put page code into HTML wrapper if needed.
+- Check for unmatched brackets and parenthesis
+- Post to new platform
+- Test in at least two browsers and your phone
+- Test against WAVE Evaluation tool
+
+About WAVE - It dinged me to duplicate links. At first it's because I truly had duplicate links, one for my page image and one for my caption. WAVE opened my eyes to the fact that I could wrap one ```a href``` tag around both. But after that it still dinged me. I've checked my code a few times and I can't see the problem. It also pointed out contrast errors in the link color of my navbar. This is an issue that plagued me before I had my eyes opened about accessibility. I'm still mostly lost on how to change that. So it will go into my enhancements list for the page.
+
+My enhancements list for my portfolio page include:
+- Fixing the link contrast issues in my navbar.
+- Having the ```active``` attribute in my navbar light up when you're in that section of the page. 
+- Having a functional contact form.
+- Seeing if there are ways to make my page prettier but accessible. I won't be using background images for accessibility reasons but there are probably other approaches. 
+
+My closing thought before I go back to bed is that now that I've been at this for 40 days, my first reaction to a problem isn't "Huh? What?" but "I think it might be X. Let's try X and see what happens. If X doesn't fix it, I have the vocabulary to search for a solution." It's a nice place to be at. 
+
+
+ 
+
+**Links that helped me get stuff done**
+1. Wave Evaluation tool - http://wave.webaim.org/extension/
+
+**Link(s) to work**
+1. Portfolio page - https://ddcornwall.github.io/portfolio
+2. Factorialize a Number - https://www.freecodecamp.org/challenges/factorialize-a-number
+
+
 
 ### Day 39: November 20, 2017 - Time spent, 1 hour
 
