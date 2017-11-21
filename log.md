@@ -43,6 +43,8 @@ My enhancements list for my portfolio page include:
 - Having a functional contact form.
 - Seeing if there are ways to make my page prettier but accessible. I won't be using background images for accessibility reasons but there are probably other approaches. 
 
+Now that my page is up in a mostly usable form and some of the enhancements depend on my learning more, I'm going to leave it as it is for now till I get more insight. Tomorrow, if I'm not feeling too bad to code will be to return to the Factorialize A Number at Free Code Camp (FCC). I have the basic idea down, I believe, but I will tear down my code to the bottom and rebuild it parts till I get it returning some kind of number in FCC. 
+
 My closing thought before I go back to bed is that now that I've been at this for 40 days, my first reaction to a problem isn't "Huh? What?" but "I think it might be X. Let's try X and see what happens. If X doesn't fix it, I have the vocabulary to search for a solution." It's a nice place to be at. 
 
 
