@@ -20,6 +20,39 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 41: November 22, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Solved the Factorialize A Number challenge to the satisifaction of Free Code Camp (FCC). Began planning the Check for Palindromes challenge.
+
+**Thoughts**: It's good that there is more than one way to solve a coding challenge. I tweaked my recursion based solution some more in hopes of it being accepted by FCC (remember it does work in node.js), but no dice. Then I remembered a few people online mention that they work working on solutions involving while loops. I refreshed my memory on the structure of while loops and then quickly coded a solution that yielded the answer after a few trials. FCC granted me an "Escape Velocity Reached" and I moved on to the palindrome challenge. 
+
+A palindrome is a set of letters that read the same backwards or forwards, not counting spaces of special characters. In psuedocode this looks simple:
+
+```
+Accept the string
+Strip out non-letter characters
+copy the reverse of the stripped string into a variable, say "revstring"
+compare revstring to stripped string and report whether match or not
+```
+
+I'm guessing my previous work on the "reverse a string" will be helpful here provided I figure out how to strip out non-letter values. 
+
+ 
+
+**Links that helped me get stuff done**
+1. Javascript while loops - https://www.w3schools.com/js/js_loop_while.asp
+
+2. String.prototype.replace() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+
+3. String.prototype.toLowerCase() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+
+4. JavaScript RegExp Reference - https://www.w3schools.com/jsref/jsref_obj_regexp.asp 
+
+**Link(s) to work**
+1. Check for palindromes - https://www.freecodecamp.org/challenges/check-for-palindromes
+
+
+
 ### Day 40: November 21, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Successfully transitioned my CodePen portfolio page to standalone. Tested on MS Edge, Chrome, Firefox and on Chrome mobile in Pixel. Tested against WAVE Evaluation tool and issues noted. 
