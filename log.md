@@ -20,6 +20,32 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 42: November 23, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Free Code Camp (FCC) Palindrome challenge. Started on "Find Longest Word" challenge. 
+
+**Thoughts**: The Palindrome challenge went as expected. I will confess to temporalily confusing alphanumeric with alphabetical. It is important to be as detail oriented as you possibly can in these challenges. It was a fun exercise and, I as suspected, my previous work in reversing a string made it easier.
+
+The Longest word challenge is interesting. I'm working with for loops and it seems to be a challenge to go just to the end of an array and no farther. I might change my idea into a while loop. 
+
+I'm also starting to think that these algorithm challenges will likely eat up the rest of my 100 days. I am learning new and interesting things and that's a good thing. I also know that I want to tackle the JSON and API section because there are a lot of APIs out there I would like to start working with. I'm tempted to jump ahead but then I think the the algorithm challenges may come in handy with the next set of projects. So maybe I'll flow into a R2 right away. We'll see. 
+ 
+
+**Links that helped me get stuff done**
+1. javascript regex to return letters only - https://stackoverflow.com/questions/23136947/javascript-regex-to-return-letters-only
+
+2. JavaScript String replace() Method - https://www.w3schools.com/jsref/jsref_replace.asp
+
+3. String.prototype.toLowerCase() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+
+4. String.prototype.split() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+
+**Link(s) to work**
+https://www.freecodecamp.org/challenges/find-the-longest-word-in-a-string
+
+
+
+
 ### Day 41: November 22, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Solved the Factorialize A Number challenge to the satisifaction of Free Code Camp (FCC). Began planning the Check for Palindromes challenge.
