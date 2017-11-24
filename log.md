@@ -20,6 +20,26 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 43: November 24, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Free Code Camp "Longest Word Challenge", moved on to "Title Case a Sentence."
+
+**Thoughts**: Overthinking can be a danger in programming. I was messing around with trying to compare each element of my array to each other. Once I realized that I only needed to compare them to the current longest length, this challenge was very easy with a for loop. Node.js was helpful in console logging my array string so I could make sure my for loop was getting the whole string and nothing more.
+
+The most straightfoward approach to my current problem, "Title Case a Sentence" did not work as individual characters in a string cannot be simply assigned new values. I've looked over two of three hints for this project. I had already completed hint 1 before looking (spilt sentence into an array of words) and have enough to get started tomorrow. 
+
+If you're curious about my particular coding solutions for the challenges, you can check out my repo for the algorithm challenges at https://github.com/ddcornwall/fcc-algorithm-challenges. 
+ 
+
+**Links that helped me get stuff done**
+1. FCC Understand String Immutability - https://www.freecodecamp.org/challenges/understand-string-immutability
+2. freeCodeCamp Algorithm Challenge Guide: Title Case a Sentence - https://forum.freecodecamp.org/t/freecodecamp-algorithm-challenge-guide-title-case-a-sentence/16088
+
+**Link(s) to work**
+Title Case a Sentence - https://www.freecodecamp.org/challenges/title-case-a-sentence
+
+
+
 ### Day 42: November 23, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Free Code Camp (FCC) Palindrome challenge. Started on "Find Longest Word" challenge. 
