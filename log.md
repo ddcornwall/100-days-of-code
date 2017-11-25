@@ -20,6 +20,33 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 44: November 25, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Free Code Camp (FCC) Title Case a Sentence challenge. Commited solution to my FCC-Algorithm-Challenges repo on GitHub. 
+
+**Thoughts**: This cannot be said often enough, "Comb through every line of your code!" I probably could have done this challenge in half the time if I would have realized early on I had typos in a variable name and had not added "()" to the end of a string function. 
+
+One typo I don't feel guilty about is that regular expressions always have to have a concluding "/" after them even if you don't use extra flags. For example, if you wanted to search for every occurance of a lowercase letter in a string, you'd use the expression ```/[a-z]/g``` The g stands for "global", i.e. the whole string. But I only wanted to check the first letter in a string so I used ```/[a-z]```. That gave me a syntax error with an obscure message. I finally found something on the web that showed that the concluding "/" was mandatory, flag or no flag. 
+
+I take comfort from the fact that I seem to understand the logic of these puzzles reasonably well. But while I accept I'll never catch 100% of my maddening typos - especially when they're only a letter off from what I intended - I wish I did a better job at catching them. 
+
+Tomorrow I will start on FCC's "Return Largest Numbers in Arrays" - At first blush the logic seems simple:
+
+1. Test each array for the largest number (I did something similar in "Find the longest word in a string")
+2. Load the largest number in an array into an array of largest numbers
+3. Return the largest array
+
+We'll see if it's as straightforward as it sounds. 1 & 2 above need to be broken down into smaller steps. It is nice how my prior FCC experience gives me ideas to solve the new challenges.
+ 
+
+**Links that helped me get stuff done**
+1. unclosed-regex.md - https://github.com/jamesallardice/jslint-error-explanations/blob/master/message-articles/unclosed-regex.md
+
+**Link(s) to work**
+Return Largest Numbers in Arrays - https://www.freecodecamp.org/challenges/return-largest-numbers-in-arrays
+
+
+
 ### Day 43: November 24, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Free Code Camp "Longest Word Challenge", moved on to "Title Case a Sentence."
