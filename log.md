@@ -20,6 +20,21 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 45: November 26, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Return Largest Numbers in Array Free Code Camp (FCC) challenge. Committed the solution to my Github repo. Began consideration of "Confirm the Ending", another string driven problem. 
+
+**Thoughts**: The arrays problem was another coding problem where I was grateful I had node.js to work with. It helped me identify the need for an extra loop in my code. It helped me confirm my understanding of accessing array elements. While I've come to understand that console.log statements will show up in "developer tools" in chrome, many times it's just easier for me to have a standalone execution environment. Plus the ATOM editor. I've gotten better over the weeks at noticing how both ATOM and the FCC environment will help you understand where matching brackets are. That's becoming increasingly helpful in deciding whether I've put code in the right loops or if statements. 
+
+Looking at the FCC challenges map, it looks like I have ten more challenges until I start the JSON API and AJax section. I'm really looking forward to this and if I keep solving problems at my current rate, I hope to start in on JSON before Christmas. 
+
+ 
+**Link(s) to work**
+1. Confirm the Ending - https://www.freecodecamp.org/challenges/confirm-the-ending
+
+
+
+
 ### Day 44: November 25, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Free Code Camp (FCC) Title Case a Sentence challenge. Commited solution to my FCC-Algorithm-Challenges repo on GitHub. 
