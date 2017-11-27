@@ -20,6 +20,26 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 46: November 27, 2017 - Time spent, 1 hour 20 minutes
+
+**Today's Progress**:  Completed the Free Code Camp (FCC) challenges of "Confirm the Ending", "Repeat a string repeat a string" and "Truncate a string", raising my completed code challenges to 247.
+
+**Thoughts**: Testing is our friend. Intermediate print/console.log statements are our friend. It is much easier to tweak code when you run different bits of code and use print statements to make the computer show its work. This was particularly true with the "repeat a string" challenge, where testing show me that my initial approach was doubling strings rather than adding to them. The solution was to introduce a separate variable to track the sum of my strings. I could have also used the second variable to be the added value instead of the sum. 
+
+I'm mostly enjoying the algorithm challenges so far. They're making me think more precisely and that's not a bad thing. Now if I could get out of the habit of starting my if statements with "If" instead of "if." Because as far as Javascript knows "If" is an undefined variable but "if" if the start of a condition statement. 
+
+Seven challenges to go before JSON APIs and Ajax. I'm not going to claim I'm going to knock out three challenges tomorrow. We'll see how things go. 
+ 
+
+**Links that helped me get stuff done**
+1. Change directory in Node.js command prompt - https://stackoverflow.com/questions/31217771/change-directory-in-node-js-command-prompt
+2. JavaScript String slice() method - https://www.w3schools.com/jsref/jsref_slice_string.asp
+
+**Link(s) to work**
+1. Chunky Monkey (Arrays) - https://www.freecodecamp.org/challenges/chunky-monkey
+
+
+
 ### Day 45: November 26, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Return Largest Numbers in Array Free Code Camp (FCC) challenge. Committed the solution to my Github repo. Began consideration of "Confirm the Ending", another string driven problem. 
