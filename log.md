@@ -20,6 +20,24 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 47: November 28, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Free Code Camp (FCC) challenges of Chunky Monkey and Slasher Flick. Started to work on Mutations. Committed completed code to Github repo. 
+
+**Thoughts**: It was nice to have another day of solving more than one coding challenge. I needed to work a few cycles of "chunky monkey" by hand before an algorithm occurred to me. Mutations will take a bit more work than I first supposed because it's asking about whether ALL the letters in one string are present in another, which is different from my first quick take of the project. Another reminder to understand business requirements clearly before jumping into a project. Fortunately I do think I know what needs to be done. 
+
+Now there are Five challenges left before JSON APIs and Ajax. 
+
+
+**Links that helped me get stuff done**
+1. Array.prototype.slice() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+2. Array.prototype.push() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+3. Array.prototype.splice() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+4. String.prototype.indexOf() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
+
+**Link(s) to work**
+Mutations - https://www.freecodecamp.org/challenges/mutations
+
 ### Day 46: November 27, 2017 - Time spent, 1 hour 20 minutes
 
 **Today's Progress**:  Completed the Free Code Camp (FCC) challenges of "Confirm the Ending", "Repeat a string repeat a string" and "Truncate a string", raising my completed code challenges to 247.
