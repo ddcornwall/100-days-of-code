@@ -20,6 +20,25 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 48: November 29, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Mutations and falsy bouncer challenges on Free Code Camp (FCC). Committed working code to Github repo. 
+
+**Thoughts**: While I continue to make mistakes, like reversing the strings in the str.indexOf commmand, I have growing confidence in my programming skills. And the more times I'm presented with an issue, the more I naturally use the correct syntax. I also feel that most of the time, I understand the underlying logic of the problem at hand. 
+
+With Falsy Bouncer, I understood logically exactly what was required. But I couldn't get the Boolean function to play with the array.filter command. I diverted and tried a loop that only loaded true values into a new array. My first instance didn't quite work because it used the same index value ("i") as the original array. It did not contain any false values, but it did have empty items. Just as I was starting to write this log entry, I realized the solution was to create a separate index value for the new array ("j") and only increment J when a new value was loaded into the new array. That worked like a charm!
+
+Now there are only three challenges to go before working with JSON and APIs.
+ 
+
+**Links that helped me get stuff done**
+1. Boolean - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+
+**Link(s) to work**
+FCC Seek and Destroy - https://www.freecodecamp.org/challenges/seek-and-destroy
+
+
+
 ### Day 47: November 28, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Free Code Camp (FCC) challenges of Chunky Monkey and Slasher Flick. Started to work on Mutations. Committed completed code to Github repo. 
