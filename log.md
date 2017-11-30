@@ -20,6 +20,25 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 49: November 30, 2017 - Time spent, 1 hour
+
+**Today's Progress**: Successfully used deep breathing techniques to avoid throwing my laptop to the floor and stomping on it. Understood that I'm not the only coder who didn't immediately get the filter method. Really got to understand the beauty of Array.prototype.push. Gained new appreciation for the teaching methods of some Free Code Campers. Committed to stay on the Seek and Destroy challenge at least one more day. 
+
+**Thoughts**: Today is the first day in weeks I felt like I made zero headway. I would have actually abandoned this challenge entirely and decided that the javascript filter method was something I could live without if it weren't for fellow Free Code Camp (FCC) Campers. First I found several people who were at least as frustrated as me with the Seek and Destroy challenge. They, like me, had read through documentations on Array.prototype.filter() and were none the wiser. So this told me it wasn't my incompetent self that was the problem. 
+
+What really convinced me to stay on this problem instead of just tossing it to the side was PortableStick's answer to "Seek and Destroy - I don't understand at all!" - They really broke things down step by step, asking the respondent to do mini code writings to get closer and closer to what Array.prototype.filter() is meant to do. By the time I finished reading, I felt like I did understand what a callback function was and how it could be used. I would work on it more this morning, but I have to close up and get ready for work. 
+
+We'll see what happens tomorrow and over the weekend. 
+ 
+
+**Links that helped me get stuff done**
+1. Arguments object - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+2. Seek and Destory - I don't understand at all! - https://forum.freecodecamp.org/t/seek-and-destroy-i-dont-understand-at-all/89162/2
+
+**Link(s) to work**
+https://www.freecodecamp.org/challenges/seek-and-destroy
+
+
 ### Day 48: November 29, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Mutations and falsy bouncer challenges on Free Code Camp (FCC). Committed working code to Github repo. 
