@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### Day 40: November 21, 2017 - Time spent, 1 hour
+### Day 50: December 1, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  
 
@@ -19,6 +19,33 @@
 End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
+### Day 50: December 1, 2017 - Time spent, 1 hour 15 minutes.
+
+**Today's Progress**:  Completed Free Code Camp (FCC) Seek and Destroy challenge to my satisfication. Also completed FCC Where do I belong Challenge. Committed solutions to my github repo. Only Caesars Cipher stands between me and JSON APIs and Ajax.
+
+**Thoughts**: Wow! I've made it halfway through the #100DaysOfCode! And I was able to celebrate with two solves - even if one was only vaguely satisfying. 
+
+Generally, when you hear me say something like "Solved it to my satisfication", it means the code works, but not as well as I want it to. It also reflects a decision not to allow the perfect be the enemy of the good. This was the case with the "Seek and Destroy" challenge. I feel like I have learned callback functions and can somewhat use the array.filter method. I also understand the basic logic of the "Seek and Destroy" challenge. If I'd used a set of loops instead of the callback/filter method, I'm confident that I code write code that would support any number of arguments. But because I was using callback with a filter, I wound up settling for hard coding three arguments. An attempt to pass an array and more than three arguments would break my code. But it met all the FCC tests so I'm calling it good. Someday I may know better.
+
+One interesting learning from the "Seek and destroy" seek and destroy challenge was realizing that using "arguments" in JavaScript means that you're taking on EVERYTHING passed to the function. I'm not sure why I didn't realize this up front, but console.log quickly made me wise to it. 
+
+"Where do I belong?" was solved without any reservations on my part. It took several iterations to get, but I'm comfortable with tinkering with something till it works. I'm also very grateful for the array.sort() method, because it means I don't have to code a bubble sort from scratch. Once that sorted my array, I tested the number that was passed along with the array and had the function return the index where it should be inserted. I hit a point where I passed all of the FCC tests except one -- and wasn't getting any output at all for that particular condition. I realized that the number should go at the end of the array, but the loop I set up would complete without taking action if a number was greater than all other numbers in the array. So I put another return statement outside the loop to catch that condition, and problem solved.
+
+Overall, today was much more satisfying than yesterday.
+ 
+
+**Links that helped me get stuff done**
+1. Seek and Destroy - I don't understand at all - https://forum.freecodecamp.org/t/seek-and-destroy-i-dont-understand-at-all/89162/2
+2. Array.prototype.sort - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+
+**Link(s) to work**
+1. FCC Caesar's Cipher - https://www.freecodecamp.org/challenges/caesars-cipher
+
+
+
+
 
 ### Day 49: November 30, 2017 - Time spent, 1 hour
 
