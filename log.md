@@ -20,6 +20,38 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 51: December 2, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Completed Free Code Camp (FCC) Caesars Cipher challenge. Commited working code to GitHub Repo. Started JSON APIs and Ajax. Raised completed coding challenges to 257. 
+
+**Thoughts**: Today was interesting and another reminder to watch your code punctuation. I wrote pseudocode for working out the Caesar Cipher challenge, translated that to JavaScript and ran my program. Only the first letter of each string was being translated correctly. The other letters weren't being touched. I fiddled with console.log in several places before realizing the best place for one was in my "decoding for loop" that showed me the loop was only executing once. That made me stare at my "if" and "if else" statements for awhile. The logic seem perfect. It worked out by hand. So what was wrong?
+
+I had not closed my "for" loop with a "}", so it only executed once and moved on. Once I closed it, I was golden and moved on to JSON. Part of me thinks I should have picked up on the open loop much earlier. Another part of me reminds me I'm human and have only been coding an hour or so a day for the past seven weeks. Some things will come easier with experience. 
+
+The JSON APIs and Ajax section is much shorter than I realized. Hadn't seen the "two hours" on it before now. After I get finished with that, I have some choices to make in my coding journey:
+
+1. Do I focus on getting my front end developer certificate? 
+2. Do I take what I learn from JSON APIs and AJAX and start working with APIs I care about (like US National Archives and NASA?)
+3. Do I split the difference, working on a few of the Intermediate Front End Development projects to get a feel for putting everything together and then split off on my own API work, along with revisiting my portfolio?
+
+Right now I'm leaning towards 3, but part of the answer probably depends on what I want from coding. If I want to do a career change, it would probably be best to keep working towards the certificate. It might be good to keep going that way because I have a brillant and talented web developer working for me. I'm her back-up on vacations and other absences. Continuting to work towards the certificate not only helps me understand her work and suggestions better, but would help me whenever she feels its time to move on. MPOW has frequent hiring freezes and I would not be surprised to be in the interim webmaster role for six months or so if my webmaster left. 
+
+On the other hand, I think there is a lot that can be done with government APIs that is interesting to me personally and potentially helpful to my library community. It might be more meaningful to me than additional algorithm challenges. Though I do like the feeling that comes with the solves.
+
+I will think about this some more. 
+
+ 
+
+**Links that helped me get stuff done**
+1. JavaScript String charCodeAt() Method - https://www.w3schools.com/jsref/jsref_charCodeAt.asp
+2. JavaScript String fromCharCode() Method - https://www.w3schools.com/jsref/jsref_fromCharCode.asp
+3. ROT13 - https://en.wikipedia.org/wiki/ROT13
+4. ASCII Printable characters - http://www.theasciicode.com.ar/ascii-printable-characters/capital-letter-a-uppercase-ascii-code-65.html
+
+**Link(s) to work**
+1. Convert JSON Data to HTML - https://www.freecodecamp.org/challenges/convert-json-data-to-html
+
+
 ### Day 50: December 1, 2017 - Time spent, 1 hour 15 minutes.
 
 **Today's Progress**:  Completed Free Code Camp (FCC) Seek and Destroy challenge to my satisfication. Also completed FCC Where do I belong Challenge. Committed solutions to my github repo. Only Caesars Cipher stands between me and JSON APIs and Ajax.
