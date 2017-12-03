@@ -20,6 +20,25 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 52: December 3, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Free Code Camp's (FCC) JSON APIs and Ajax sections. Raised my completed code challenges to 261. Began planning and research for FCC Quote Generator. Will attempt to use https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=json&lang=en as my quote source. 
+
+**Thoughts**: Caution. This post is a bit whiny. Both the JSON APIs section and the briefing for the random quotes generator disappointed me. The JSON section was basically copy and paste code sections they gave you. It also looked like they were pulling their JSON data from a local file "/json/cats.json." I later tried to test the "Get JSON with the jQuery getJSON Method" exercise code with a full URL from a quotes source and I couldn't get it to show me the raw JSON data, even though it shows up as unformatted json in my browser. Googling around for examples of getJSON with full URLs did not come up with useful examples, so I'm wondering if I should be using something else. But FCC is silent on the matter.
+
+Another place where FCC is maddenly silent is in their intro to the random quote generator. THEY DIDN'T OFFER A QUOTES API TO USE! This is pretty frustrating. I've found a few candidates through googling, but if they want us to demonstrate our mastery of using APIs, I think they should have offered us one. Since APIs doesn't occur in the user stories it is tempting to hard code the quotes. But I'm not going to. 
+
+I'd actually work on a different API project, but I don't feel like I've learned enough JQuery/JSON to do on my own. So I'll be looking for additional tutorials and challenges in this area. 
+
+
+ 
+
+**Links that helped me get stuff done**
+1. FCC Forum: Quote generator/JSON api - https://forum.freecodecamp.org/t/quote-generator-json-api/83315
+
+**Link(s) to work**
+FCC Quote Generator - https://www.freecodecamp.org/challenges/build-a-random-quote-machine 
+
 ### Day 51: December 2, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Completed Free Code Camp (FCC) Caesars Cipher challenge. Commited working code to GitHub Repo. Started JSON APIs and Ajax. Raised completed coding challenges to 257. 
