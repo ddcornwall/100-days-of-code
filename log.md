@@ -20,6 +20,22 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 53: December 5, 2017 - Time spent, 1 hour 30 min
+
+**Today's Progress**:  Gained a better understanding of the role of consoles, especially the Chrome developers console, in debugging and getting error messages to feed into Google to get better answers. Succesfully retrieved data from an API. 
+
+**Thoughts**: Today was deeply frustrating and plagued by odd internet issues. But I learned vocabulary to help me ask the right questions and used debugging tools at my disposal. Along with *tons* of read/search. I have a better understanding of why some things fail and have a few directions forward. 
+ 
+
+**Links that helped me get stuff done**
+1. jQuery’s JSONP Explained with Examples - https://www.sitepoint.com/jsonp-examples/
+
+**Link(s) to work**
+1, Json testing CodePen (to get the actual API I want, instead of the one I could get to work) - https://codepen.io/ddcornwall/pen/vWPMPL
+2. Free Code Camp (FCC) Random Quote Machine - https://www.freecodecamp.org/challenges/build-a-random-quote-machine
+
+
+
 ### Day 52: December 3, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Free Code Camp's (FCC) JSON APIs and Ajax sections. Raised my completed code challenges to 261. Began planning and research for FCC Quote Generator. Will attempt to use https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=json&lang=en as my quote source. 
