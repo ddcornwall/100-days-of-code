@@ -20,7 +20,29 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
-### Day 53: December 5, 2017 - Time spent, 1 hour 30 min
+### Day 54: December 5, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Solved my internet woes. Learned a bit more about making Ajax requests and how to use my Chrome Developer Tools better. Started Intro to Ajax class on Udacity. 
+
+**Thoughts**: Last night I figured my intermittant internet issues were linked to Google BackUp and Sync trying to sync ALL. THE. THINGS in my photos folders at once. Putting it on pause gave me steady internet. Turning it back on freaks out my router lights. So problem solved for now.
+
+On the coding front. I played around a bit more with what I had yesterday, but still couldn't get a quotes API to return data. So I'm going to build up my Ajax knowledge with a course I've seen recommended in several places - "Intro to Ajax" from Udacity. I'm going to count the first hour of coursework a day towards my challenge for two reasons - 1) Working with external APIs is a key goal for me and what I was able to get from Free Code Camp (FCC) just wasn't working for me and 2) The course promises I'll wind up with a working app that will call on three APIs that all work rather differently. So I feel like by the time I'm done, I'll have enough for my own work with National Archives and NASA APIs and to go back on work on the random quote generator. 
+
+My intention is to do at least an hour of coursework/guided builiding in the morning and do some extra coursework in the evenings that I won't count towards my hours of coding. 
+
+
+ 
+
+**Links that helped me get stuff done**
+1. Intro to Ajax - https://classroom.udacity.com/courses/ud110
+
+**Link(s) to work**
+1. Intro to Ajax - https://classroom.udacity.com/courses/ud110
+
+
+
+
+### Day 53: December 4, 2017 - Time spent, 1 hour 30 min
 
 **Today's Progress**:  Gained a better understanding of the role of consoles, especially the Chrome developers console, in debugging and getting error messages to feed into Google to get better answers. Succesfully retrieved data from an API. 
 
