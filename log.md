@@ -20,6 +20,18 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 55: December 6, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Learned how to gather information from a form and put them in variables. Got Google Streetview requests working on my "moving information app" for the Intro to Ajax course on Udacity.
+
+**Thoughts**: This was a good day, even though progress was slow. I now have the skill of getting user input to make something happen and I've used that in the Google StreetView API. While not an Ajax request, it's a start with APIs. Part of why it took me so long is that while the project calls for street and city, Google doesn't always show a photo when the state isn't entered as well. So my own address failed. Quietly. I was using my own address because I couldn't remember how to spell Pennsylvania. After seeing several forum posts that used variations of my solution, I broke down and put in the White House address. And the street view part worked! So I went back and put in my address WITH the state after my city and that worked too!
+
+The course is having me work on my laptop, but once I'm done, I hope to put the app on GitHub pages. I say "hope" because I don't know yet if the New York Times or Wikipedia APIs are https. If they're not, then they won't work on Github pages or CodePen. 
+
+**Link(s) to work**
+1. Intro to Ajax - https://classroom.udacity.com/courses/ud110
+
+
 ### Day 54: December 5, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Solved my internet woes. Learned a bit more about making Ajax requests and how to use my Chrome Developer Tools better. Started Intro to Ajax class on Udacity. 
