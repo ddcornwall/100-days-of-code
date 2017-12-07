@@ -20,6 +20,28 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 56: December 7, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Got a New York Times developer key, successfully retrieved data from Article Search API. Got a feel for just how complex JSON data could be. Figured out the data elements I want to bring into the "moving companion app."
+
+**Thoughts**: I am really like this Udacity "Intro to Ajax" course. It is really coding heavy so I don't feel like it's a cheat to be using it for my #100DaysOfCode. The instructor gives brief overviews, points you to helpful documentation and then tells you to come back when you have the code working. There's a link to the class forum if that doesn't go well.
+
+I'm impressed with the New York Times API. Aside from decent documentation, it actually has a form to help you build your Ajax requests. It took a little bit of looking at that and my class materials to translate the Times' Ajax query into the $.getJSON I was supposed to use, but I got it. Also got it to accept my city input. 
+
+My next step is to parse the tsumani of data that comes with every record. Their JSON results are rather like a set of nested boxes. You get an object with an array of stories and there are some sub arrays within each story. It's a considerably more complex structure than the ones listed in the JSON.parse() function examples I've seen so far. I'm not discouraged though. Three days ago I could not figure out how to draw ANYTHING out of an API. So having too much data is actually a nice problem to have. 
+
+
+**Links that helped me get stuff done**
+1. jQuery.getJSON() - http://api.jquery.com/jquery.getjson/
+2. New York Times Article Search API - http://developer.nytimes.com/article_search_v2.json
+3. New York Times Developers FAQ - http://developer.nytimes.com/faq
+
+**Link(s) to work**
+1. Intro to Ajax - https://classroom.udacity.com/courses/ud110
+
+
+
+
 ### Day 55: December 6, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Learned how to gather information from a form and put them in variables. Got Google Streetview requests working on my "moving information app" for the Intro to Ajax course on Udacity.
