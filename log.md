@@ -20,6 +20,50 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 57: December 8, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Worked more with New York Times API. Learned to retrieve just the fields I wanted. Found a great video on addressing specific chucks of data within the big data blob "response." 
+
+**Thoughts**: I was really flailing around trying to extract particular bits of New York Times articles from the big "response" blob containing objects, arrays, etc: 
+
+```
+[object Object]: {copyright: "Copyright (c) 2017 The New York Times Company. All Rights Reserved.", response: Object, status: "OK"}
+copyright: "Copyright (c) 2017 The New York Times Company. All Rights Reserved."
+       response: Object
+           docs: Array
+               0: Object
+
+                    byline: Object
+
+                    headline: Object
+                      content_kicker: null
+                      kicker: null
+                      main: "A $40 Toll to Drive 10 Miles? It Happened on Virginia’s I-66"
+                      name: null
+                      print_headline: "Tolls Rise In Virginia With Flow Of Traffic"
+                      seo: null
+                      sub: null
+
+                    __proto__: Object
+                   score: 1
+                   web_url: "https://www.nytimes.com/2017/12/05/us/i66-toll-virginia-washington.html"
+                   word_count: 789
+```
+Then I found a YouTube video by The Coding Train. He showed the process of getting API data, which I already knew, but then he worked through the structure of the response. The keys are 1) To address an item, you chain the hierarchy through dot notation and 2) array objects in JSON can be addressed through array notation. So finding the first "main" headline becomes:
+
+```data.response.docs[0].headline.main```
+
+I confirmed this works and know I think I'm in a position to complete the New York Times portion of "My Moving Companion" the next time I code. This will also help me with the Free Code Camp (FCC) Random Quote Machine once I go back to it. 
+
+
+**Links that helped me get stuff done**
+1. 10.9: New York Times API and JavaScript - p5.js Tutorial by The Coding Train - https://www.youtube.com/watch?v=IMne3LY4bks 
+2. New York Times Article Search API - http://developer.nytimes.com/article_search_v2.json
+
+**Link(s) to work**
+1. Intro to Ajax - https://classroom.udacity.com/courses/ud110
+
+
 ### Day 56: December 7, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Got a New York Times developer key, successfully retrieved data from Article Search API. Got a feel for just how complex JSON data could be. Figured out the data elements I want to bring into the "moving companion app."
