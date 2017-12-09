@@ -20,6 +20,22 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 58: December 9, 2017 - Time spent, 1 hour 40 minutes
+
+**Today's Progress**:  Successfully picked out just the fields I needed from my New York Times API/JSON query. Used jQuery append method to get headlines on my "moving companion app" page. 
+
+**Thoughts**: Now that I can find the data I want using APIs with JSON, now the challenge is to display it in my web page. I looked through several different ways of displaying items before settling on JQuery's append method as the one I found most comprehensible and which did not totally replace text with every loop iteration. So now I have a list of headlines that display on my page in list item format. I tried to get them web linked, but I'm having issues getting append() to handle quote marks. I don't think I'm escaping the quote marks correctly. I want to get that part figured out because one of my future projects will be displaying images gathered with APIs and I'll definitely need ```<img src="some image url">``` then. Once I get quote mark handling sorted, it SEEMS like a simple matter of formatting my other fields into a list item. Then I can check off that part of the Udacity "Intro to Ajax" course and move on to the Wikipedia part, which I assume will also help me with the Free Code Camp (FCC) Wikipedia Viewer challenge.  
+
+
+**Links that helped me get stuff done**
+1. jQuery append() Method - https://www.w3schools.com/jquery/html_append.asp
+
+**Link(s) to work**
+1. Intro to Ajax - https://classroom.udacity.com/courses/ud110
+
+
+
+
 ### Day 57: December 8, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Worked more with New York Times API. Learned to retrieve just the fields I wanted. Found a great video on addressing specific chucks of data within the big data blob "response." 
