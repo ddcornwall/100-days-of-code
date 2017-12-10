@@ -20,6 +20,35 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 59: December 10, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed successful display of New York Times API data within moving app. Successfuly "failed" application gracefully. 
+
+**Thoughts**: It was easy enough to find the proper way to deal with quote marks. After that it was a simple matter of creating the list item string to display my articles. I wound up with:
+
+```
+//Put articles into HTML
+$(".article-list").append("<li> <a href=\"" + items[i].web_url + "\"" + "target=\"_blank\" >" + items[i].headline.main + "</a>" + "</br>" + items[i].byline.original + "</br>" + "Snippet: " + items[i].snippet + "</br>" + "Word count: " + items[i].word_count + "</li>");
+```
+Ok. Not totally simple and I did need to read it over a few times. But it works beautifully. Between this and the getJSON method I learned, I feel reasonably confident in extracting and displaying API data from those APIs that support JSON and JSON-P. Which is all I wanted from the Free Code Camp (FCC) JSON APIs and Ajax but didn't get. 
+
+My plans are to finish the Udacity course, go back to FCC and buld the random quote machine, and then probably noodle around with the National Archives Catalog API. From reading https://github.com/usnationalarchives/Catalog-API/blob/master/search_and_export.md I see it supports JSON. 
+
+For now, the next immediate step is to work with the Wikipedia API. Then I'll finalize the "move companion" to change the image from backgound to loading at the top because I do not like the readability of text against the photo backgrounds.
+
+One final thought on this day is that at some point I'm going to set to set up a special file of developer keys outside of GitHub. Or upgrade my subscription.
+ 
+
+**Links that helped me get stuff done**
+1. JavaScript Strings - https://www.w3schools.com/js/js_strings.asp (Scroll down to "special characters")
+2. Deferred.fail() - https://api.jquery.com/deferred.fail/
+
+**Link(s) to work**
+1. Intro to Ajax - https://classroom.udacity.com/courses/ud110
+
+
+
+
 ### Day 58: December 9, 2017 - Time spent, 1 hour 40 minutes
 
 **Today's Progress**:  Successfully picked out just the fields I needed from my New York Times API/JSON query. Used jQuery append method to get headlines on my "moving companion app" page. 
