@@ -20,6 +20,23 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 60: December 1, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Figured out how to get some data from Wikipedia API. Learned anew importance of callbacks
+
+**Thoughts**: Wikipedia API. Harder than it looks. I went through the Undacity tutorial, read through Ajax documentation and the Wikimedia/Wikipedia API documentation and tried several variants of Ajax requests. Not only did they not work, but they erased my other APIs display. eventually I found a tutorial on Wikipedia/Ajax tutorial that showed me what I was doing wrong. I needed to add ```&callback=?``` to the end of my calling URL. I knew that I was passing JSONP through a function and saw the term callbacks in documentation, but handn't thought that it needed to go into the URL. Call me n00b. 
+
+Stil some more work to do with my function, but I feel like I'm on the right track. And my page isn't broken. I suppose another takeaway is that every API is different. 
+ 
+
+**Links that helped me get stuff done**
+1. Getting Data From the Wikipedia API Using jQuery - http://www.9bitstudios.com/2014/03/getting-data-from-the-wikipedia-api-using-jquery/
+
+**Link(s) to work**
+https://classroom.udacity.com/courses/ud110/
+
+
+
 ### Day 59: December 10, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed successful display of New York Times API data within moving app. Successfuly "failed" application gracefully. 
