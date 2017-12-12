@@ -20,6 +20,33 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 61: December 12, 2017 - Time spent, 1 hour 30 minutes
+
+**Today's Progress**:  Figured out how to get wikipedia data of my choosing, then formatted and inserted that data into my moving companion app for my Udacity Intro to Ajax class. Committed working code to GitHub.
+
+**Thoughts**: It's a joy to figure something out. It always is. To get to that point, I had to review searching in the Wikimedia/Wikipedia API, use a great tool called JSON-Handle to better see how wikipedia data was structured, and spend some time figuring out how loops were going to help me out. 
+
+JSON-Handle was particularly helpful because it not only presents JSON data in a nice outline, but it shows you the exact bracket notation of an element when you click on it. I really needed that functionality today because unlike the New York Times, Wikipedia does not name the arrays it passes back to you. It also packages titles, snippets and URLs into completely separate (objects? Arrays?) instead of the New York Times approach of passing you a single object of muliple arrays for each article. 
+
+Next steps are:
+
+1. finish the Udacity course, which still has a few sections.
+2. Edit my app so that the street view does not fill the background.
+3. Look for other accessibility issues with WAVE Evaluation tool (if that can be done with local files)
+4. Fix error handling for the wikipedia articles. 
+5. Get this project hosted on Github Pages and work out the inevitable posting glitiches
+
+Tomorrow is a travel day for me. I've got long enough layovers that I'm hopeful of getting at least an hour's coding in. Then I'm with family for the holidays. We'll have to see how that affects. Wish me well in finding an appropriate coding/family balance for the rest of the month. 
+ 
+
+**Links that helped me get stuff done**
+1. Wikipedia API Search - https://www.mediawiki.org/wiki/API:Opensearch
+2. Extension JSON-handle -  https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj
+
+**Link(s) to work**
+https://classroom.udacity.com/courses/ud110/
+
+
 ### Day 60: December 1, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Figured out how to get some data from Wikipedia API. Learned anew importance of callbacks
