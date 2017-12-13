@@ -20,6 +20,38 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 62: December 13, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed Udacity Intro to Ajax class. Tweaked Move Companion App in preparation for future hosting. Fixed Wikipedia error handling. Learned that the WAVE Evaluation tool doesn't seem to work on local files.
+
+**Thoughts**: I took the Udacity Intro to Ajax class because several people at Free Code Camp (FCC) and on Twitter recommended it. So do I if you're interested in getting hands on experience with APIs. I definitely need more practice but I feel comfortable with the basics. 
+
+I had a problem with error handling Wikipedia content. It turned out that JSONP doesn't allow you to just tack on an "error" or "fail" function. So the Udacity instructor included a neat trick involving setting a timeout that ended in an error message AND a line that canceled the timeout if wikipedia content returned. It worked great! 
+
+The app itself is ok. I can see several ways to make it better and once I get it web posted, I ought to check it for mobile access. Maybe also put the photo, NYT articles and Wikipedia entries into Bootstrap containers. 
+
+Also, I want to give it a go over for accessibility, but the web-based WAVE Evaluation tool doesn't work on local files. So that will have to wait till I get it web hosted.
+
+Looking back on my list from yesterday:
+
+1. finish the Udacity course, which still has a few sections.
+2. Edit my app so that the street view does not fill the background.
+3. Look for other accessibility issues with WAVE Evaluation tool (if that can be done with local files)
+4. Fix error handling for the wikipedia articles. 
+5. Get this project hosted on Github Pages and work out the inevitable posting glitiches
+
+It looks like I knocked out 1,2 and 4. Not bad for working on this project in the Seattle-Tacoma airport after waking up at 2:30am. 
+
+From here, I'm thinking I'll go back to the FCC Random Quote Machine so I can use my knowledge of APIs outside of the fairly careful guidance of Udacity. 
+ 
+
+**Links that helped me get stuff done**
+https://classroom.udacity.com/courses/ud110/
+
+**Link(s) to work**
+1. Move companion app (URL coming soon!)
+2. Free Code Camp Build a random quote machine - https://www.freecodecamp.org/challenges/build-a-random-quote-machine
+
 ### Day 61: December 12, 2017 - Time spent, 1 hour 30 minutes
 
 **Today's Progress**:  Figured out how to get wikipedia data of my choosing, then formatted and inserted that data into my moving companion app for my Udacity Intro to Ajax class. Committed working code to GitHub.
