@@ -20,11 +20,23 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 64: December 15, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Built an unaesthetic working version of the Free Code Camp (FCC) Wikipedia Viewer. 
+
+**Thoughts**: After considering my coding options and how I'm still stuck on the random quotes machine, I decided to apply my new Wikipedia API skills I picked up on Udacity to the FCC's Wikipedia Project. Thankfully the skills are transferrable and I have a very basic CodePen that meets the basic use cases. You can search for wikipedia articles, see a list and get a random article if you want.
+
+Call this version 0.9. It could look better. I'd also like to bring up suggested search terms. So tomorrow will be focused on aesthetics. Once done, improve the functionality a bit more. 
+
+**Link(s) to work**
+https://codepen.io/ddcornwall/pen/aEOwjj
+
+
 ### Day 63: December 14, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Learned ways Ajax requests can go wrong. 
 
-**Thoughts**: Ok, so lessons learned in one API aren't necessarily applicable to others. I'm still stumped on the random quote machine. I can load wikipedia data into CodePen, but it doesn't like the https version of forismatic I found. Trying to use a callback function just got me mime type errors. Though only with forismatic. Wikipedia groves with callbacks. 
+**Thoughts**: Ok, so lessons learned in one API aren't necessarily applicable to others. I'm still stumped on the random quote machine. I can load wikipedia data into CodePen, but it doesn't like the https version of forismatic I found. Trying to use a callback function just got me mime type errors. Though only with forismatic. Wikipedia grooves with callbacks. 
 
 Will try more read/search tomorrow. Perhaps look for other code sources. Or maybe I'll try playing with the national archives API instead. 
 
