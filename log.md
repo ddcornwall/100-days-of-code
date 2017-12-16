@@ -20,6 +20,23 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 65: December 16, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Made Wikipedia viewer more presentable. Researched ways to implement autocomplete. 
+
+**Thoughts**: 
+Today was pretty fun. Mostly tweaking my Wikipedia Viewer that I put into a CodePen because that was the preferred format of Free Code Camp (FCC). I spend the last part of my coding time on reading how to get my search form to autocomplete with wikipedia titles. I feel close but not quite. This partly because finding alone focused time is harder to do at my families place than at home. 
+
+**Links that helped me get stuff done**
+1. usa.gov design components: Colors - https://standards.usa.gov/components/colors/
+2. Getting started with jQuery and jQuery UI – Back to Basics - http://www.dotnetcurry.com/jquery/1089/jquery-jqueryui-basic-beginner-tutorial
+3. jQuery UI TextBox AutoComplete with Remote Data Source (Back to Basics) - http://www.dotnetcurry.com/jquery/1129/jqueryui-autocomplete-using-remote-data
+
+**Link(s) to work**
+1. FCC Wikipedia viewer - https://codepen.io/ddcornwall/pen/aEOwjj
+
+
+
 ### Day 64: December 15, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Built an unaesthetic working version of the Free Code Camp (FCC) Wikipedia Viewer. 
