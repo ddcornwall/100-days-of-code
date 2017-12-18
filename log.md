@@ -20,6 +20,18 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 67: December 18, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Figured out how to get geolocation and Google Maps to work together. Started studying the Free Code Camp (FCC) weather API. 
+
+**Thoughts**: Today was mostly tweaking and poking once I found an example of getting Google to take my laptop's location. Worked at getting the right sized map. Looking at the FCC weather API it looks like it's got a lot of good fields to play with. I figure I'm going to try and use the sunrise and sunset data in addition to weather conditions. It would be nice to know what their original source is just because I like vetted resources for applications, but this will do for the exercise.  
+
+I also have some work to do because the examples I used to generate the Google Map based on geolocation ran script and style tags inside the HTML. I think it would be good practice to transfer these out to their own separate script.js and style.css 
+
+
+**Link(s) to work**
+1. Show the Local Weather - https://www.freecodecamp.org/challenges/show-the-local-weather
+
 ### Day 66: December 17, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed Free Code Camp (FCC) Wikipedia Viewer. Started planning for Show Local Weather. Obtained a developer key for the Google Maps API.
