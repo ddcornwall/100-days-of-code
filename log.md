@@ -20,6 +20,24 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 68: December 19, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Kept my patience as I tried different things. 
+
+**Thoughts**: Not much done today. Sort of like a rat in a maze. But better to explore the maze than lie down and give up, right? 
+
+First I tried separating out the javascript and css bits into their own files. I kept a copy of my original HTML file that had both elements in that. Then I constructed new files index.html, style.css and script.js. The separated Javascript file did not work, though I was prepared for that as Google called a script within a script.  But I couldn't make that call work within script.js and after Googling the possibilities, I settled on keeping the javascript inside my index.html file. What stumped me more is that although I triple checked my stylesheet link AND could apparently see it working in developer tools, the map would not unless the styles were inside index.html. I'm sure I'm missing something, but for the life of me can't figure what.
+
+Next I turned my attention to the Free Code Camp (FCC) weather API. It seemed straightforward, but my efforts to use Get JSON seem to break the map. Without the weather API code, it's fine. Drop in the weather API code and all of a suddent "InitMap()" is no longer a function. 
+
+It may be that I bit off more than I can chew. So tomorrow I think I will go back to basics and drop the Google Map for now, even though I'd like to bring it back later. 
+
+
+**Link(s) to work**
+1. Show the Local Weather - https://www.freecodecamp.org/challenges/show-the-local-weather
+
+
+
 ### Day 67: December 18, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Figured out how to get geolocation and Google Maps to work together. Started studying the Free Code Camp (FCC) weather API. 
