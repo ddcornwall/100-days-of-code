@@ -20,6 +20,20 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 69: December 20, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Successfully retrieved and addressed data from the Free Code Camp (FCC) weather API. Got it to work on the geolocation of my laptop. 
+
+**Thoughts**: The first part of the day was frustrating and reminded me of the need to track and triple check all punctuation. I also had to relearn that for the most part, what happens in the function stays in the function. Once I got these two truths out of the way, it was a simple matter to use geolocation to generate latitude and longitude to use in retrieving weather data via a $getJSON request. I've satisfied myself that I can reliable address sub-items within the weather data "blob" I get. Now I can move on to which data I want to use and how to display it. Because its an FCC project that directs us to CodePen, I'll probably be setting one up in the next day or two. 
+
+While I'm definitely finding some of the details frustrating, my confidence level in working with APIs is increasing, for which I am grateful. 
+
+**Link(s) to work**
+1. Show the Local Weather - https://www.freecodecamp.org/challenges/show-the-local-weather
+
+
+
+
 ### Day 68: December 19, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Kept my patience as I tried different things. 
