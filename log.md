@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### Day 50: December 1, 2017 - Time spent, 1 hour
+### Day 70: December 21, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  
 
@@ -19,6 +19,28 @@
 End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
+### Day 70: December 21, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Began writing weather data to my weather viewer. Learned about unix time.
+
+**Thoughts**: I felt like I made good progress today. I identified the fields I wished to display in my weather viewer and started coding their display. I have more fields and more formatting to do, but I'm confident I can get it done. 
+
+A trip to the Free Code Camp (FCC) Forum helped me decipher the odd sunrise and sunset times provided by the FCC weather API. For example for today 12/21/17 it provided:
+
+*Sunrise: 1513806493
+*Sunset: 1513841781
+
+It turns out these values are "unix time", or the number of seconds since midnight, 1/1/1970. Javascript has a "date" function that might turn these values into something human usuable. 
+ 
+
+**Links that helped me get stuff done**
+1. Sunrise and sunset calculations for api weather machine - 
+https://forum.freecodecamp.org/t/sunrise-and-sunset-calculations-for-api-weather-machine/151949/3
+
+**Link(s) to work**
+1. Show the Local Weather - https://www.freecodecamp.org/challenges/show-the-local-weather
+
 
 ### Day 69: December 20, 2017 - Time spent, 1 hour
 
