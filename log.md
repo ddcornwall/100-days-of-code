@@ -20,6 +20,39 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 71: December 22, 2017 - Time spent, 1 hour
+
+**Today's Progress**:  Completed display of data for Free Code Camp (FCC) Show the Local Weather. Committed my index.html, style.css and script.js files to GitHub. Use JavaScript Date function to convert Unix timecodes into usable sunrise/sunset dates and times. 
+
+**Thoughts**: Another day of good progress without odd glitches. I'm a little grumbly that the FCC Weather API didn't come with an explanation of fields and units. But by comparing what I got from my FCC weather station to what's available on weather.gov (with a bit of an assist from Wolfram Alpha for speed calculations), I determined the units for different conditions are as follows:
+
+Tempetature: Celsius
+Pressure: Millibars (mb)
+Wind Speed: Meters per second
+
+While FCC only seems to care about converting tempetature, I'm planning on displaying all three of these metric measures both ways. 
+
+After reviewing what I have so far and comparing it to the user stories on the FCC challenge, plus some of my own desires, I came up with this list of tasks:
+
+1) Make display more attractive. Try to make icon pop out more. Remember to use accessible contrasts
+2) Display tempetature in both C and F (Consider button)
+3) Display wind speed in both mps and mph
+4) Display pressure in inches and millibars
+5) Display only the time part of sunrise and sunset. Bonus - display Date before showing either
+6) Bonus - Show wind direction in terms of every day direction (i.e. North instead of 0 deg, etc)
+7) Bonus - Put in a static Google map
+
+I'm not crazy about offering a button to toggle the tempetature, but it is a business requirement.  
+
+**Links that helped me get stuff done**
+1. Sunrise and sunset calculations for api weather machine - 
+https://forum.freecodecamp.org/t/sunrise-and-sunset-calculations-for-api-weather-machine/151949/3
+
+**Link(s) to work**
+1. Show the Local Weather - https://www.freecodecamp.org/challenges/show-the-local-weather
+
+
+
 ### Day 70: December 21, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Began writing weather data to my weather viewer. Learned about unix time.
