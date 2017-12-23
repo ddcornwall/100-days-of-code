@@ -20,6 +20,48 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 72: December 23, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**: Reformatted weather display using Bootstrap Grid layout. Reformatted Sunrise and Sunset display so only the parts I wanted to display showed up.   
+
+**Thoughts**: I'm pleased with my programming progress so far, but my page is loading fairly slowly. I will need to see what I can do to optimize things after I'm done with my other tasks.
+
+Speaking of tasks, here is my task list from yesterday:
+
+1) Make display more attractive. Try to make icon pop out more. Remember to use accessible contrasts
+2) Display tempetature in both C and F (Consider button)
+3) Display wind speed in both mps and mph
+4) Display pressure in inches and millibars
+5) Display only the time part of sunrise and sunset. Bonus - display Date before showing either
+6) Bonus - Show wind direction in terms of every day direction (i.e. North instead of 0 deg, etc)
+7) Bonus - Put in a static Google map
+
+Today I felt like I accomplished #1 (nicer display) by using a grid display. I used the img height and width attributes to pump up the size of the icon. Some of the spacing could be better, but it's a big improvement over my previous versions.
+
+Thanks to the functions toLocaleTimeString, getMonth, getDate and getFullYear, I was able to resolve #5, displaying the date just once, and only showing the time part of sunrise and sunset. Quick note about getMonth() - it is a zero index function, so December shows up as 11. So I created a variable called month and set it to getMonth(sunrise)+1.
+
+With these items taken care of, my revised task list looks like this:
+
+1) Display tempetature in both C and F
+2) Display wind speed in both mps and mph
+3) Display pressure in inches and millibars
+4) Migrate to CodePen, since that is what Free Code Camp (FCC) asks for the project. 
+5) Bonus - Show wind direction in terms of every day direction (i.e. North instead of 0 deg, etc)
+6) Bonus - Put in a static Google map
+
+
+**Links that helped me get stuff done**
+1. HTML <img> Tag (w3schools) - https://www.w3schools.com/tags/tag_img.asp
+2. extract time from datetime using javascript - https://stackoverflow.com/questions/15546292/extract-time-from-datetime-using-javascript
+3. Extract date and time from string using Javascript - https://stackoverflow.com/questions/14787271/extract-date-and-time-from-string-using-javascript
+4. JavaScript getMonth() Method (w3schools) - https://www.w3schools.com/jsref/jsref_getmonth.asp
+
+
+**Link(s) to work**
+1. Show the Local Weather - https://www.freecodecamp.org/challenges/show-the-local-weather
+
+
+
 ### Day 71: December 22, 2017 - Time spent, 1 hour
 
 **Today's Progress**:  Completed display of data for Free Code Camp (FCC) Show the Local Weather. Committed my index.html, style.css and script.js files to GitHub. Use JavaScript Date function to convert Unix timecodes into usable sunrise/sunset dates and times. 
