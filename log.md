@@ -20,6 +20,38 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 73: December 24, 2017 - Time spent, 1 hour 20 minutes
+
+**Today's Progress**:  Completed reformatting of weather data using "toFixed(n)" function to format numbers and a long "if / else if" statement to translate wind direction. 
+
+**Thoughts**: Today was another day of steady progress. A lot of my time was looking up conversion formulas and coding them into my project. I worked on my task list for the Free Code Camp (FCC) "Show the local weather" project. Here's how it stood after yesterday:
+
+1) Display tempetature in both C and F
+2) Display wind speed in both mps and mph
+3) Display pressure in inches and millibars
+4) Migrate to CodePen, since that is what Free Code Camp (FCC) asks for the project.
+5) Bonus - Show wind direction in terms of every day direction (i.e. North instead of 0 deg, etc)
+6) Bonus - Put in a static Google map
+
+I accomplished everything on my list except migrating to CodePen and putting in a static Google map. I've decided to forgo the Google Map because my page takes awhile to load. Adding one more API call will just slow it down more. 
+
+I decided to NOT code a toggle button between C and F because it just doesn't make sense to me to code a button for that and not the other metric measurements. It also doesn't make sense to have three buttons. So I'm not going to do either. I think in a real life situation, I could convince my client not to insist on a C to F button. 
+
+So tomorrow (or possibly boxing day) the goal will be to migrate my project to CodePen and submit it to FCC. Then I'll start studying the National Archives Catalog API to see if I have a chance of retrieving the most recently digitized photos with Alaska subjects. 
+
+ 
+
+**Links that helped me get stuff done**
+1. Conversion of Temperature - https://www.mathsisfun.com/temperature-conversion.html
+2. Pressure Conversion (National Weather Service) - https://www.weather.gov/media/epz/wxcalc/pressureConversion.pdf
+3. How do I convert m/s to mph? (Quora) - https://www.quora.com/How-do-I-convert-m-s-to-mph
+4. JavaScript Number Methods (w3schools) - https://www.w3schools.com/js/js_number_methods.asp
+5. Wind directions and degrees - http://snowfence.umn.edu/Components/winddirectionanddegreeswithouttable3.htm
+
+**Link(s) to work**
+1. Show the local weather - https://www.freecodecamp.org/challenges/show-the-local-weather
+
+
 ### Day 72: December 23, 2017 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**: Reformatted weather display using Bootstrap Grid layout. Reformatted Sunrise and Sunset display so only the parts I wanted to display showed up.   
