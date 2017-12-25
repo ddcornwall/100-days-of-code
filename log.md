@@ -20,6 +20,21 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 74: December 25, 2017 - Time spent, 1 hour 10 minutes
+
+**Today's Progress**:  Ported my Free Code Camp (FCC) Weather Explorer to CodePen. Started work on National Archives (NARA) Alaskana Explorer by examining the NARA Catalog API for search/export and examining a record for digitized Alaskana in detail. Made note of possibly sorting parameters. 
+
+**Thoughts**: I was pleasantly surprised that my CodePen worked the first time. The Weather Viewer is still rough around the edges, but I'm eager to put my newly developed API coding skills to work on a task I've dreamed about for at least a year - providing better access to Alaska related materials digitized by the US National Archives. In particular, I would like to code an app that will display the most recently digitized materials from the Archives. While there is no clear way to do this from the public NARA catalog, there seems to be promising approaches within the NARA catalog API. I'd also like to provide a very limited subject browse to digitized Alaskana. I established a GitHub repo to track my notes and eventual code. If you'd like to join me, drop me a line. Or just fork the repo and go your own way. Plenty of room for all. 
+ 
+
+**Links that helped me get stuff done**
+1. National Archives Catalog Search and Export - https://github.com/usnationalarchives/Catalog-API/blob/master/search_and_export.md
+
+
+**Link(s) to work**
+1. nara-alaskana - https://github.com/ddcornwall/nara-alaskana/tree/master
+
+
 ### Day 73: December 24, 2017 - Time spent, 1 hour 20 minutes
 
 **Today's Progress**:  Completed reformatting of weather data using "toFixed(n)" function to format numbers and a long "if / else if" statement to translate wind direction. 
