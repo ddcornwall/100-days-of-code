@@ -20,6 +20,31 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Days 75 & 76: December 26 and 27, 2017 - Total Time spent, 2 hours 15 minutes
+
+SPECIAL NOTE: Wonky home internet access kept me from blogging yesterday.
+
+**Today's Progress**:  Continued examining US National Archives(NARA) API. Gained appreciation for how complicated NARA data is. 
+
+**Thoughts**: NARA data is very complicated. My goal is to pull out the most recently digitized items related to Alaska. I can get data of the NARA API. I can even get only online objects. But NARA appears to store the metadata about the digital objects separate from the descriptions of the physical items. As a result, if I limit my query to digital objects only, I get a result list with no meaningful descriptions. But so far, if I include descriptions, I have to accept descriptions without corresponding digital objects. 
+
+A possible further complication, at least for the user is that the data returned from NARA can include large amounts of text extracted from PDFs as well as user transcriptions. I'm guessing that will add to the download time for users. 
+
+I might want to narrow the scope of this project to just photographs and see if that helps. To get a sense of how complex NARA data can be, check out https://catalog.archives.gov/api/v1/?description=alaska%20digitization%20project, one of my experiments to get data out of the National Archives Search API. "Alaska Digitzation Project" refers to a specific initiative to digitize materials formerly housed in Anchorage Alaska but which are now on file with the Seattle Field Office of NARA. It's a bit of a cheat as there may be more digitized items of Alaskana beyond the Alaska Digitization Project, but I wanted a set of files I could be sure had digital surrogates. 
+
+On a personal note, I may have to restart 100 Days of Code soon because my family and I are taking a trip to a friend's house this weekend. My wife and I will be on a couch in the living the living room and people we're staying with have two small children. I don't see how I get a coding hour a day out of that. 
+
+
+ 
+
+**Links that helped me get stuff done**
+1. NARA search API interactive documentation - https://catalog.archives.gov/interactivedocumentation (This is where to find the searchable/sortable fields.
+
+**Link(s) to work**
+https://github.com/ddcornwall/nara-alaskana
+
+
+
 ### Day 74: December 25, 2017 - Time spent, 1 hour 10 minutes
 
 **Today's Progress**:  Ported my Free Code Camp (FCC) Weather Explorer to CodePen. Started work on National Archives (NARA) Alaskana Explorer by examining the NARA Catalog API for search/export and examining a record for digitized Alaskana in detail. Made note of possibly sorting parameters. 
