@@ -20,6 +20,25 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### Day 77: December 28, 2017 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Worked out sorting for National Archives Alaskana explorer, selected fields I needed to extract for project and verified I could pull them correctly via console logging. 
+
+**Thoughts**: I really cannot find enough good things to say about the JSON Handle Chrome extension. It really helps to pin down the paths of fields you need from the nested arrays and objects provided by some APIs such as the US National Archives. 
+
+I have plenty more to do on this project, even in the initial phase of trying to display the most recent Alaskana. I'll need loops within loops to display records and their associated digital items. I want to look into paging results so people can see more records. It might be good to offer people a choice about seeing all the digital objects associated with a record. Maybe I'd display the first digital object and then provide a link to the catalog.
+
+This is also going to be my last #100DaysOfCode entry for a bit. I'm currently travelling and my family is taking a side trip from here to visit good friends they want me to meet. Given the number of people who will be crammed into one house, I want to let go of the idea that I'll have an uninterrupted hour of coding there. I'll restart my R1 of #100DaysOfCode after I get back from the side trip on 1/2/2018. Happy coding all!
+ 
+
+**Links that helped me get stuff done**
+JSON Handle Chrome Extension - https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj
+NARA Interactive API documentation - https://catalog.archives.gov/interactivedocumentation
+
+**Link(s) to work**
+https://github.com/ddcornwall/nara-alaskana
+
+
 ### Days 75 & 76: December 26 and 27, 2017 - Total Time spent, 2 hours 15 minutes
 
 SPECIAL NOTE: Wonky home internet access kept me from blogging yesterday.
