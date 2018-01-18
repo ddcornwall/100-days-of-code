@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### Day 70: December 21, 2017 - Time spent, 1 hour
+### R1D1: January 17, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  
 
@@ -19,6 +19,35 @@
 End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
+### R1D1&D2: January 17 & 18, 2018 - Time spent, 1 hour each day
+
+**Today's Progress**:  Resumed worked on National Archives Alaskana Explorer. Got results to display though images way too large. Separated my javascript into an external file. Troubleshooted issues with running external file.
+
+**Thoughts**: So, this is my second effort at round 1 of 100DaysOfCode. I broke off the last round at Day 77 because I took a "trip within a trip" and wanted to focus on family. Then I got a bad cold. But I've started again and am happy to be working on something I hope will be of eventual use to my professional community. 
+
+Getting results to display was pretty easy but I did not realize how ginormous the image files would be compared to my printouts. I definitely want to do thumbnails and use smaller imaages if the National Archives have them. I also detected some issues with my search criteria. My code was breaking because it expected all results to come with digital objects. But for some reason my search was picking up several bibliographic only records. For now I want to focus on formatting, so I put the code writing digital objects to the HTML page in an IF statement that only executes if there is a digital object associated with the record. It's a band aid, but one that lets me focus on my display work. 
+
+That was yesterday. Today I decided to once again try separating my JavaScript from my HTML. I made a backup copy of my working page and then stripped out the JavaScript of the HTML file and put it into script.js with a script src reference. Nothing happened. The developer console found no issues. I did a lot of "search/read." Then I looked at the "elements" portion of the developers tools and realized that the browser knew my script was there. It just wasn't executing. After some more of the "search/read" method, I realized I had to enclose my JavaScript in a "document ready" function. Then my new page ran - sort of. 
+
+The script was running but the developer console claimed syntax errors in the GET request to get data from the National Archives. I found that hard to believe because I had copied a script that worked yesterday. So I ran my old file -- and got the same result. That was depressing and my first thought was that the National Archives had changed their search API. So I hopped over to the US National Archives GitHub for the search API. No changes. I tried one of their example searches in my browser - timeout error. I hopped over to their public catalog. It was down. So I THINK my code is still sound, but the developer console interpreted the catalog being down as an exotic error. We'll see what happens when their catalog comes back up. All in all, I feel more accomplished having separate HTML and JavaScript files. 
+
+If the catalog is up tomorrow I'll resume work. If not, I'll head over to Free Code Camp (FCC) and pick up where I left off -- The dreaded Quote Machine. 
+
+It's good to be back. 
+ 
+
+**Links that helped me get stuff done**
+1. js code is not working in an external file, but works file when placed in the same html page - https://stackoverflow.com/questions/38377609/js-code-is-not-working-in-an-external-file-but-works-file-when-placed-in-the-sa
+2. NARA GitHub Catalog-API/search - https://github.com/usnationalarchives/Catalog-API/blob/master/search_and_export.md
+3. https://catalog.archives.gov/api/v1/?naIds=485 - Enabled me to see catalog was down.
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - URL coming soon!
+
+
+
+### First attempt at 100 Days of Code ended 12/28/2017.
 
 ### Day 77: December 28, 2017 - Time spent, 1 hour 15 minutes
 
