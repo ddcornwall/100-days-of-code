@@ -20,6 +20,29 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D3: January 19, 2018 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Revised National Archives Alaskana Explorer to only pull from the "Alaska Digitization Project." Fixed formatting issues. Traded full images of digital objects for thumbnails. Brainstormed future phase of project and how to reduce page load time of approximately 36 seconds over a decent home broadband connections. Uploaded working code to GitHub repo.
+
+**Thoughts**: My diagnosis of my problem yesterday was spot on. The Chrome Developer Console incorrectly flagged the National Archives Catalog being down as an unknown syntax error. So I set about fixing code. One of my biggest problems was that my GET request was fetching Kennedy Assassination records whose only connection to Alaska were a few e-mails mentioning Alaska in passing. So far I have not discovered a reliable marker for digital format across the catalog, so for now I have chosen to limit the Explorer to items from the Alaska Digitization Project, which appears in the field ```description.fileUnit.variantControlNumberArray.variantControlNumber```. 
+
+Currently I'm ordering retrieved records by the field ```description.recordHistory.created.dateTime desc``` but I'm concerned that this approach is showing records in order of their CATALOGING instead in order of the latest object digitized, which is what I'm really looking for. I'm going to need to do more analysis of the structure of a National Archives record to see if I can do better. 
+
+Another thing I hope to do better is improving page response time. Right now it is coming out at a glacial 30-60 seconds, even with thumbnail images. I recall reading in the National Archives Catalog API that you can choose to pull only selected fields and that's something I may want to do. I'm not displaying ALL. THE. THINGS. so I probably don't need to retrive them all. 
+
+I have more work to do formatting the results and I should review my task list on my GitHub repository, but I think I may be nearly ready for the next phase of the project, which is to display items from the Alaska Digitization Project based on popular Alaska History Topics. I may also be able to provide a keyword search that limits to materials within the Alaska Digitization Project. 
+
+It feels good to be working on something that has direct application to my life. 
+ 
+
+**Links that helped me get stuff done**
+1. CSS Borders - https://www.w3schools.com/css/css_border.asp
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://github.com/ddcornwall/nara-alaskana
+
+
+
 ### R1D1&D2: January 17 & 18, 2018 - Time spent, 1 hour each day
 
 **Today's Progress**:  Resumed worked on National Archives Alaskana Explorer. Got results to display though images way too large. Separated my javascript into an external file. Troubleshooted issues with running external file.
