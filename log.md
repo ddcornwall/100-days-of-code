@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### R1D1: January 17, 2018 - Time spent, 1 hour
+### R1D4: January 20, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  
 
@@ -19,6 +19,22 @@
 End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
+### R1D4: January 20, 2018 - Time spent, 1 hour 30 minutes
+
+**Today's Progress**:  Spend time analyzing National Archives records and re-studying the National Archives Catalog Search API. Try alternate searches for digital objects and tried to retrieve specified fields without success. Learned there is some good Space Shuttle Imagery of Alaska. See for yourself at https://catalog.archives.gov/search?q=alaska%20sts&tabType=online.
+
+**Thoughts**: For as much time I spent looking for 1) Better ways of finding digital Alaskana and 2) Trying to limit retrieval of data to just the fields I want, I don't have a lot to say. Found one promising approach to broaden my retrieval of digital objects. But it breaks my code because some fields are missing. And the National Archives description for filtering results fields isn't working well for me - I can only get some very top level fields to come back. Other fields get flagged as invalid -- even though I can get them to display when I'm not trying to filter fields. 
+
+Tomorrow I think I'm going to style my results a bit more and get URLs from the results page to open in new tabs so navagating to a result and going back does not result in the search re-executing. 
+ 
+
+**Links that helped me get stuff done**
+1. US National Archives Catalog API - https://github.com/usnationalarchives/Catalog-API 
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://github.com/usnationalarchives/Catalog-API
+
 
 ### R1D3: January 19, 2018 - Time spent, 1 hour 15 minutes
 
