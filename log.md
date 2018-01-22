@@ -20,6 +20,16 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D6: January 22, 2018 - Time spent, 1 hour
+
+**Today's Progress**:  Worked on National Archives Alaskana Explorer. Created a search interface and spent time troubleshooting retrieval and display issues. 
+
+**Thoughts**: Coding search is harder than it looks. The first iteration of my search form only worked once. Once again document ready came to my rescue. But then my previous search results do not erase when doing a new search. I actually understand why this is happening -- I only have "append" commands in my result display area. I need to suss out how to set that section blank before a search executes. My last problems are finding a sort solution that is better than "most recent records" and figure out why my script gets blown up by some search results. Those and the ongoing - retrieval is very, very slow. I don't think I can blame that on US National Archives because when I put my search URL in a browser, I get the unformatted JSON results fairly quickly most of the time. Except when it's retrieving the full text of OCR's material. 
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://github.com/ddcornwall/nara-alaskana
+
+
 ### R1D5: January 21, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  Worked on National Archives Alaskana Explorer. Reduced number of records retrieved to five to improve page response. Made result links open in new tabs. Gave the explorer a theoretically accessible color scheme. Did not let myself get distracted by interesting items found while coding. 
