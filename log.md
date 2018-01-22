@@ -20,6 +20,31 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D5: January 21, 2018 - Time spent, 1 hour
+
+**Today's Progress**:  Worked on National Archives Alaskana Explorer. Reduced number of records retrieved to five to improve page response. Made result links open in new tabs. Gave the explorer a theoretically accessible color scheme. Did not let myself get distracted by interesting items found while coding. 
+
+**Thoughts**: The impact that the number of records retrieved from the US National Archives catalog has on page loading speed is simply amazing. I started out with ten records displayed. That seemed to take around 40 seconds. Just so I can see an expanded set of materials I increased the number of items retrieved to 20 and that raised the loading time to 1 minute 30 seconds. Then I changed the number of records retrieved to five. That dropped the page load time to 25 seconds or so. 
+
+One of the biggest problems today was resisting the urge to explore National Archives items that I retrieved. I listed a few things I found below. 
+
+In terms of cataloging new records from the Alaska Digitization Project, it looks like the National Archives is only doing that every few months, which might make a retrieval of most recent records the least interesting. So I'm thinking about future phases in terms of browsing and searching. I'd also like to let people page through lists of results though I'm not sure how to make that happen. 
+ 
+
+**Links that helped me get stuff done**
+1. US Web Standards - https://standards.usa.gov/components/colors/
+2. National Archives Catalog API (Pagination) - https://github.com/usnationalarchives/Catalog-API/blob/master/search_and_export.md#pagination
+
+**Interesting history items found in US National Archives**
+1. Alaska Indian (BIA) School Newspapers - https://catalog.archives.gov/id/1870939 - Newspapers are arranged alphabetically by name of town or village.
+2. Attu WWII Naval Air Facility Logbooks - https://catalog.archives.gov/id/3054053 - "This series consists of deck logbooks for the Naval Air Facility at Attu, Alaska. There are remarks on personnel transferred out, received for duty and for medical attention; and Captain's Masts and punishments given. The remarks also cover injuries, accidents, fires, and plane crashes. There are also lists of officers' next of kin and addresses."
+
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://github.com/ddcornwall/nara-alaskana
+
+
+
 ### R1D4: January 20, 2018 - Time spent, 1 hour 30 minutes
 
 **Today's Progress**:  Spend time analyzing National Archives records and re-studying the National Archives Catalog Search API. Try alternate searches for digital objects and tried to retrieve specified fields without success. Learned there is some good Space Shuttle Imagery of Alaska. See for yourself at https://catalog.archives.gov/search?q=alaska%20sts&tabType=online.
