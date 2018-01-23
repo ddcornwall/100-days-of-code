@@ -20,6 +20,23 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D7: January 23, 2018 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Worked on search functionality for National Archives Alaskana Explorer. Worked on error handling and field display. Was reminded again of the complexity of US National Archives Data. 
+
+**Thoughts**: I have mentione that JSON repsonses for the National Archives are complex, right? In a previous blog post I described how code broke because the API brought me descriptions without digital objects. I put in an if-then statement to only display non-object data if my code faced that siutation. 
+
+Well, it turns out that my search page can retrieve digital objects without descriptive data. That also crashes my code. It took me quite some time to figure out how to check if I was getting an object without description and how to display metadata from it. So now my search doesn't break. But it still displays oddly and even though I can see the spot in the "digital object" record for a thumbnail, I haven't got it to successfully display. It would also be nice if I could pull in the parent title -- I have an idea about that, but it might be the computing equivalent of opening a jump point inside a jump gate. Wouldn't explode but might mightily slow down the code. I'm going to focus on fixing the thumbnail display first.
+
+Also, finished out my first week in this second effort to finish 100DaysOfCode!
+ 
+
+**Fun links from National Archives**
+1. Alaska UFO News Clippings - https://catalog.archives.gov/id/40587582
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://github.com/ddcornwall/nara-alaskana
+
 ### R1D6: January 22, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  Worked on National Archives Alaskana Explorer. Created a search interface and spent time troubleshooting retrieval and display issues. 
