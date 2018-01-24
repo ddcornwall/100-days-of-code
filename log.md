@@ -20,6 +20,40 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D8: January 24, 2018 - Time spent, 1 hour 15 minutes
+
+**Today's Progress**:  Identified and fixed issues that kept thumbnail and file link from displaying in objects without description. Made thumbnails consistent across results. Fixed a few typos in my code. Updated my Github repo with latest display code. 
+
+**Thoughts**: We all have bad days and good days when coding. Yesterday was a bad frustrating day. Today was a day where I really got stuff done. One thing that I really need to remember in future work is to check BOTH instances of a variable when you're using it in a ```<a href>``` tag. What I mean is if  have something like:
+
+```$("#recent").append("</br> This digital object found found at <a href = \"" + response.opaResponse.results.result[i].objects.object.file["@url"] + "\" target=\"_blank\">" + response.opaResponse.results.result[i].objects.object.file["@url"] + "</a></br>" );```
+ 
+It's easy for me to get one of the instances wrong, then wonder why my code breaks. In the case above, I had copied code for items that had BOTH a description AND associated items. My original copy and paste was:
+
+```$("#recent").append("</br> This digital object found found at <a href = \"" + response.opaResponse.results.result[i].objects.object[0].file["@url"] + "\" target=\"_blank\">" + response.opaResponse.results.result[i].objects.object[0].file["@url"] + "</a></br>" );```
+
+It didn't take me long to realize that were the items were single objects, there would be not be "[0]" after "object" and I fixed the first instance. My text editor showed me about half the line, so I forgot to fix BOTH instances. That sent me for an extra 20 minutes or so of why this isn't working, but some real quality with the Developer Tools Console where I was able to verify what I wanted actually existed. Armed with this knowledge, I took a more careful look at my code and finally found the second instance of "[0]". Then things displayed correctly instead of crashing. 
+
+Next two tasks for me are: 1) Figure out how to reset the search page so subsequent search results aren't simply appeneded. Then look into how I might let the user page through results. 
+
+**Fun links from National Archives**
+1. Mailings to: Environmental & Conservation organization Territory of Alaska, Governor Territory of Alaska, Dept of Mines - https://catalog.archives.gov/id/72017531 - includes brochures on planned Alaska National Wildlife Refuge (ANWR)
+
+2. CCC - Supervision, R-10 - https://catalog.archives.gov/id/71961609 - Concerning Alaskan activities with the Civilian Conservation Corps
+
+3. Kodiak Island [1938-39] (Correspondence of Lawrence J. Palmer, 1920 - 1945) - https://catalog.archives.gov/id/71957057 - Has flyer for hunting Kodiak Bears
+
+**Links that helped me get stuff done**
+1. Why does console.log say undefined, and then the correct value? [duplicate]
+ https://stackoverflow.com/questions/24342748/why-does-console-log-say-undefined-and-then-the-correct-value
+
+2. Accessioning Electronic Records - https://www.archives.gov/records-mgmt/accessioning/electronic.html - Gave me definition of inclusive dates (dates of actual records)
+
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://github.com/ddcornwall/nara-alaskana
+
+
 ### R1D7: January 23, 2018 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Worked on search functionality for National Archives Alaskana Explorer. Worked on error handling and field display. Was reminded again of the complexity of US National Archives Data. 
