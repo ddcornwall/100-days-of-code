@@ -20,6 +20,27 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D9: January 25, 2018 - Time spent, 1 hour
+
+**Today's Progress**:  Worked on National Archives Alaskana Explorer. Page now clears out old search results before showing new search. Began work on browse page. Found a few ways how not to implement. Briefly researched pagination methods.
+
+**Thoughts**: Some of us librarians have a saying "The hard questions are easy and the easy questions are hard." This proverb was true today. Of the two problems I set myself, I thought it would be harder to figure out how to wipe my previous results when doing a new search than to implement my browse page. I had ideas for the second but not the first.
+
+But, wiping out prior results was as easy as adding ```$("#recent").empty(); ``` to the top of my display script. I found the empty function by googling the "append" function, looking for pages that explained append in the context of other things you could do to a div section. 
+
+That being taken care of, I turned to implementing browse subjects. My first thought was to clone my keyword search page and change the form elements from a single keyword text box to a set of check boxes. The checkboxes seemed to work great, but when I clicked the submit button, no value was transferred to my script. After reading through some dense stack overflow answers, I thought I'd "take the easy way out" and use text input boxes prepopulated with my search terms. Yeah. No. When I do that, the page only sends the first value. It doesn't seem to matter if I change the names of the submit button. 
+
+I could do an absolute brute force inelegant solution of creating a separate script for every subject browse topic I want, but I'd prefer a lighter solution, so I'm going to work on this problem of passing canned search terms to my script awhile longer. 
+
+Once I solve my browse subjects problem one way or another, I believe I will create a menu page (New items, keyword search (on the menu page), browse subjects) and post my work to Github pages as a beta while I work out pagination and some nagging problems with seemingingly duplicated results. Along with seeing if I can get my page loading time down. 
+
+**Links that helped me get stuff done**
+1. jQuery empty() Method - https://www.w3schools.com/jquery/html_empty.asp
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://github.com/ddcornwall/nara-alaskana
+
+
 ### R1D8: January 24, 2018 - Time spent, 1 hour 15 minutes
 
 **Today's Progress**:  Identified and fixed issues that kept thumbnail and file link from displaying in objects without description. Made thumbnails consistent across results. Fixed a few typos in my code. Updated my Github repo with latest display code. 
