@@ -20,6 +20,29 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D10: January 26, 2018 - Time spent, 1 hour
+
+**Today's Progress**: Worked on National Archives Alaskana Explorer. Read up on how to change Javascript variables with buttons. Started work on browse functionality. Experimented with ways to get "object only" retrievals to drop of search results.  
+
+**Thoughts**: A day of progress, this was not. I found a fair number of stuff on the 'net about changing Javascript variables through buttons. But aside from my not fulling understanding the methods, they did not seem to pass the variable to my script file. I need that for the browse to work. So I decided on creating a separate html file and script file for each topic browse. I realize this is a clunky implementation, but it will eventually give me a working product that I can re-code when I have more expertise.
+
+I say "eventually" because I've run into some issues, not all of a coding nature. Part of the issue is that my topic keywords are not mapping well into the catalog search. Meaning that putting in ```q=1964 alaska earthquake``` into my API URL results in a screen full of 1960s correspondence from the Indian Arts and Crafts Board. While I'm sure this probably relates to the quake, a results screen that doesn't present SOME of the many National Archives photographs of quake damage isn't worth presenting. But there are many fields to search and I'm confident that I just need to hone my search fields and terms.
+
+Since I wasn't getting far with implementing browse, I thought Id give another crack at filtering my results by type of record to make the "object only" hits drop out. The National Archives API has a results type filter and I tried limiting to fileUnit. For several keyword searches this tripled my already pokey response time and so isn't practical. Looking over the raw JSON it seems like the problem is retrieving extracted text. Theoretically National Archives lets you limit fields retrived, but I haven't been successful with that. 
+
+Tomorrow I plan to work on refining my canned subject browses some more and get that implemented. Then in the next few days release a "beta" of the explorer. 
+
+
+**Interesting Alaskana from National Archives**
+ 1. Inquiries - Antlers, Hair, Sinew, Bones, 1939-40-41 - https://catalog.archives.gov/id/72015514
+
+**Links that helped me get stuff done**
+1. National Archives Catalog Search API - https://github.com/usnationalarchives/Catalog-API/blob/master/search_and_export.md
+
+**Link(s) to work**
+
+
+
 ### R1D9: January 25, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  Worked on National Archives Alaskana Explorer. Page now clears out old search results before showing new search. Began work on browse page. Found a few ways how not to implement. Briefly researched pagination methods.
