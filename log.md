@@ -20,6 +20,29 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D13: January 29, 2018 - Time spent, 1 hour 15 minutes
+
+Note: For R1D11-12, see https://librarianfromalaska.wordpress.com/2018/01/28/100daysofcode-r1d11-12-analyze-repair-laptop-analyze/
+
+
+**Today's Progress**:  Implemented search progress text. Implemented timeout of 60 seconds on searches with notice to user. Cleaned up text a little and made search page the index.html page. Published what I'm calling version 0.9 to GitHub pages. 
+
+**Thoughts**: It was great to draw upon previous projects I did to add features to new projects. The "search in progress / here's your results" code came from the "moving companion" project I did for the excellent Udacity AJAX course. I also followed my mantra that it is better to publish something that works in most cases than to keep tweeking it till it is perfect. There are things missing and things wonky with it, but it does provide a basic search to digitized Alaskana. 
+
+My work list for the next while is:
+1. Create about page with description and links to GitHub resources
+2. Create spots for bug reports - feel free to use GitHub but I think I also need something less techy.
+3. Research more on how to provide paging through more than one set of results.
+4. Research more on providing canned search links
+5. Figure out why some searches bring on digital object items, even though they seem to have the right fields.
+6. Explore ways that I can find records with digital objects beyond Alaska Digitization Project. They're out there, I'm just not sure how to pull them without also pulling in records without digital objects. 
+
+Even though it is imperfect, it is nice to have something out there. 
+
+
+**Link(s) to work**
+https://ddcornwall.github.io/nara-alaskana/
+
 ### R1D10: January 26, 2018 - Time spent, 1 hour
 
 **Today's Progress**: Worked on National Archives Alaskana Explorer. Read up on how to change Javascript variables with buttons. Started work on browse functionality. Experimented with ways to get "object only" retrievals to drop of search results.  
