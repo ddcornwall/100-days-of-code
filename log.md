@@ -20,6 +20,31 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D14: January 30, 2018 - Time spent, 1 hour
+
+**Today's Progress**: Worked on National Archives (NARA) Alaskana Explorer. Reviewed response to my enhancement request to the National Archives Catalog API. Improved error handling and eliminated a display error. Started work an about page and set up a bug reports page on my personal website at https://librarianfromalaska.wordpress.com/bug-reports/.  
+
+**Thoughts**: Two weeks in to my #100DaysOfCode experiences and things are mostly clicking along with the occasional brick wall. I was happy with progress today. The National Archives staffer who responded to my enhancement request rightly told me I had bound several issues together and kindly untangled them for me and other followers of the NARA Catalog API. He also confirmed that some of my issues were real and that a few might actually be fixed sooner than later. In particular, getting the Thumbnail URL of item to display correctly when just objects.object.thumbnail is retrieved is likely to be a quick fix. I hope so. If that happens, I can look forward to dramatic improvements in retrieval speed.
+
+My mysterious display problem from yesterday - where a digital object claimed it had no thumbnail when it was, well, a DIGITAL object wasn't mysterious at all. It was my old friend "two variables in code" to display a URL, but only one of them checked. I thought I'd previously eliminated these issues, but too much copying and pasting, I guess. The line my display was failine on was:
+
+```$("#recent").append("</br> First digital object found found at <a href = \"" + response.opaResponse.results.result[i].objects.object[0].file["@url"] + "\" target=\"_blank\">" + response.opaResponse.results.result[i].objects.object[i].file["@url"] + "</a> </br>" );'''
+
+This line is supposed to generate something like:
+
+"First digital object found found at https://catalog.archives.gov/catalogmedia/lz/seattle/rg-075/1870939/JPGs/1870939-001-003-0001.jpg"
+
+Instead, sometimes I got a message to the effect of "Cannot get property of file from UNDEFINED"
+
+What hapened is the the first variable in that line ```response.opaResponse.results.result[i].objects.object[0].file["@url"] ``` was right. It contained the URL for the first "object" within the "iTH" description. But the second value ```response.opaResponse.results.result[i].objects.object[i].file["@url"]''' expected to have the URL for the "iTH" object within the "iTH" description, where i was some number between 0 and 9. As a result if i was higher than the number of digital objects within a description, the display failed. 
+
+So I changed the second variable to be identical to the first and all was well. 
+
+Tomorrow I'll work more on the About page and probably start fixing some mobile issues I discovered. 
+ 
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
+
 ### R1D13: January 29, 2018 - Time spent, 1 hour 15 minutes
 
 Note: For R1D11-12, see https://librarianfromalaska.wordpress.com/2018/01/28/100daysofcode-r1d11-12-analyze-repair-laptop-analyze/
