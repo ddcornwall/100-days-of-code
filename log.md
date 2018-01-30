@@ -28,7 +28,7 @@ DISCLAIMER - This log will contain typos. For the nicely edited version of my pr
 
 My mysterious display problem from yesterday - where a digital object claimed it had no thumbnail when it was, well, a DIGITAL object wasn't mysterious at all. It was my old friend "two variables in code" to display a URL, but only one of them checked. I thought I'd previously eliminated these issues, but too much copying and pasting, I guess. The line my display was failine on was:
 
-```$("#recent").append("</br> First digital object found found at <a href = \"" + response.opaResponse.results.result[i].objects.object[0].file["@url"] + "\" target=\"_blank\">" + response.opaResponse.results.result[i].objects.object[i].file["@url"] + "</a> </br>" );'''
+```$("#recent").append("</br> First digital object found found at <a href = \"" + response.opaResponse.results.result[i].objects.object[0].file["@url"] + "\" target=\"_blank\">" + response.opaResponse.results.result[i].objects.object[i].file["@url"] + "</a> </br>" );```
 
 This line is supposed to generate something like:
 
