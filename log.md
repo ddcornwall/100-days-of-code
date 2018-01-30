@@ -36,7 +36,7 @@ This line is supposed to generate something like:
 
 Instead, sometimes I got a message to the effect of "Cannot get property of file from UNDEFINED"
 
-What hapened is the the first variable in that line ```response.opaResponse.results.result[i].objects.object[0].file["@url"] ``` was right. It contained the URL for the first "object" within the "iTH" description. But the second value ```response.opaResponse.results.result[i].objects.object[i].file["@url"]''' expected to have the URL for the "iTH" object within the "iTH" description, where i was some number between 0 and 9. As a result if i was higher than the number of digital objects within a description, the display failed. 
+What hapened is the the first variable in that line ```response.opaResponse.results.result[i].objects.object[0].file["@url"] ``` was right. It contained the URL for the first "object" within the "iTH" description. But the second value ```response.opaResponse.results.result[i].objects.object[i].file["@url"]``` expected to have the URL for the "iTH" object within the "iTH" description, where i was some number between 0 and 9. As a result if i was higher than the number of digital objects within a description, the display failed. 
 
 So I changed the second variable to be identical to the first and all was well. 
 
