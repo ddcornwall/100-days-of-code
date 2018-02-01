@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 <!--Template for log
-### R1D4: January 20, 2018 - Time spent, 1 hour
+### R1D16: February 1, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  
 
@@ -14,11 +14,38 @@
 
 
 **Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
 
 
 End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
+### R1D16: February 1, 2018 - Time spent, 1 hour
+
+**Today's Progress**: Worked on Alaskana Explorer. Finished first version of about page, pushed it to GitHub repo. Identified a new class of records that I need to bring in. Began planning on how to handle the different display fields. 
+
+**Thoughts**: Today was mostly a content day. I felt an "about" page about what the project is and why I was doing it was important. So today was more writing than coding, but since I was adding formatting tags, I'm calling it coding."
+
+Towards the end of my coding time I considered the question "Why doesn't my digitized Alaskana Explorer not bring up photographs of the 1964 Good Friday Earthquake where there are so many digitized photos in the National Archives catalog?" If you are an Alaskan, this omission is a big honking red flag. If your "lets explore Alaskana!" product can't return materials about the Good Friday earthquake, you should give up and read a book.
+
+Fortunately, I figured out why. At first I thought the earthquake records were digitized outside the Alaska Digitization Project. If that had been so, my search wouldn't reach them because the presence of a record in the Alaska Digitization Project is my proxy for whether a record has associated digital objects. It's not perfect, but it mostly works. But it turns out that earthquake photographs were part of the project. 
+
+So if they were part of the project, why weren't they being returned? Because I had taken another shortcut to standardize displays and eliminate descriptionless digital objects from my results - the Alaskana Explorer currently only returns results at the file unit level. But it appears that many Alaska Earthquake photographs are described at the item level. To get those descriptions and objects, I need to return both fileUnit and item level records. But I need to do some extra coding to display these results correctly. Specifically I need to:
+
+1) Write code to test whether something is an item level record, and if so, display the item-specific fields instead of the fileUnit specific ones. For example, to display a parent series from a file unit you use "description.fileUnit.parentSeries.title" but you have to use "description.item.parentFileUnit.parentSeries.title" to display the same thing from an item level record. 
+2) Write code to display the single digital object associated with an item level display. My current code assumes multiple digital objects associated with a record and displays the first item as a thumbnail. But digital objects in an item record are not coded in an array like they are for file units. So instead of using:
+
+response.opaResponse.results.result[i].objects.object[0].thumbnail["@url"] like I would in a file unit level record, I have to use:
+response.opaResponse.results.result[i].objects.object.thumbnail["@url"] to get the same image in an item level record
+
+So I'll be working on those two things tomorrow, which will mean restructing my display code in a set of if-thens to test for the presence of a digital object, and whether the accompanying record is fileUnit or item. 
+
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
+
+
 
 ### R1D15: January 31, 2018 - Time spent, 1 hour
 
