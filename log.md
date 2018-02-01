@@ -20,6 +20,41 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D15: January 31, 2018 - Time spent, 1 hour
+
+**Today's Progress**:  Worked on Alaskana Explorer. Fixed problem in display resulting from record retrieved without digital objects. Studied fields in records returned from the National Archives Catalog.
+
+**Thoughts**: 
+Yesterday I discovered a new search that broke my code. When you put "kenai" into the search results it would display two and a half records and freeze. The developer console reported that it could not extract the property "file" from "undefined." After careful examination of the JSON output for the record that froze the search, I realized that even though it had been flagged as part of the "Alaska Digitization Project", it did not have any digital objects. So I needed to do a workaround again. 
+
+Because I keep my code on GitHub, I was able to use the "history" function to see code I used to exclude descriptions without digital objects. It depended on code executing if the number of digital objects reported by "response.opaResponse.results.result[i].objects.object.length." I swear this worked before. But when I put the work around in again, it failed in same spot for the same reason - "could not extract the property "file" from "undefined.""
+
+That's when I went for an approach I had considered and rejected before - trying to test whether a variable was undefined and skipping the digital object steps if it was. According to the "check for undefined" link below, this code should tell you whether something was undefined:
+
+if (name === undefined) {...}
+
+So I tried this if statement:
+
+ If (response.opaResponse.results.result[i].objects.object.length === undefined { do stuff}
+ 
+ This gave me the same error as before. But unlike the last time I tried this approach, I started slicing words from the variable and starting logging them in the console. I kept getting long errors until I tried:
+ 
+ console.log(response.opaResponse.results.result[0].objects);
+ 
+ Instead of a long error I got the single word "undefined." I then changed my if statement to:
+ 
+  If (response.opaResponse.results.result[i].objects === undefined { do stuff}
+  
+ and all was well. So if something doesn't work. Keep tinkering.
+ 
+ On a different topic and not exactly an error, some searches showed me that some terms, like "agricultural colony" return less than 10 items. I want to find a way to tell the user that so that they're not fooled into thinking the program erred by delivering less than 10 items. I'll be working on that tomorrow, plus more of the about page. 
+
+**Links that helped me get stuff done**
+1. How to check for undefined in JavaScript - http://www.codereadability.com/how-to-check-for-undefined-in-javascript/
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
+
 ### R1D14: January 30, 2018 - Time spent, 1 hour
 
 **Today's Progress**: Worked on National Archives (NARA) Alaskana Explorer. Reviewed response to my enhancement request to the National Archives Catalog API. Improved error handling and eliminated a display error. Started work an about page and set up a bug reports page on my personal website at https://librarianfromalaska.wordpress.com/bug-reports/.  
