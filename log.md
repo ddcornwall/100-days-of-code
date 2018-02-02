@@ -21,6 +21,24 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D17: February 2, 2018 - Time spent, 1 hour 30 minutes
+
+**Today's Progress**:  Worked on Alaskana Explorer. Now brings in item level descriptions. Delivers earthquake photographs. Pushed working code to GitHub and made note of new display issues.
+
+**Thoughts**: Lots of tweaking today, plus lots of comparing item level records to fileUnit level records to find similar fields. Because I'm getting two levels of description in my results, I don't have an easy way to sort records. Have some vauge ideas, but that's further down the line. 
+
+Good - some searches like "kenai" and "earthquake" are lightening fast -- because they appear to only be returning item level records of photographs that aren't dragging tons of extracted text behind them. Bad - some searches no longer disply thumbnails even though they have them. Tomorrow I'll need to reexamine my criteria for displaying images. Records with only one image have to be treated separately from records with multiple images because the latter stores images as an array, but single image records do not. 
+ 
+
+**Links that helped me get stuff done**
+1. JavaScript check if variable exists (is defined/initialized) - https://stackoverflow.com/questions/5113374/javascript-check-if-variable-exists-is-defined-initialized
+
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
+
+
+
 ### R1D16: February 1, 2018 - Time spent, 1 hour
 
 **Today's Progress**: Worked on Alaskana Explorer. Finished first version of about page, pushed it to GitHub repo. Identified a new class of records that I need to bring in. Began planning on how to handle the different display fields. 
