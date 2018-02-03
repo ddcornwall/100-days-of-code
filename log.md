@@ -21,6 +21,29 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D18: February 3, 2018 - Time spent, 1 hour
+
+**Today's Progress**:  Worked on Alaskana Explorer. Fixed display issues. Application reports when less than ten results are retrieved. 
+
+**Thoughts**: Today was mostly tweaking and studying the structure of National Archives (NARA) records to make sure I was displaying the right things. I was slightly handicapped by problems NARA was having with their image file storage. My application was pulling out the thumbnail images exactly as in the catalog, but in my first testing this morning, I only got file not found errors. A little later, about half the thumbnails displayed. At that point I checked one record that had a thumbnail and one that did not. There was no difference between them, so I'm putting it down to a hiccup. 
+
+Crossing my fingers I THINK I have my display problems solved. While a few searches time out, nothing this morning explicitly broke, so I'm calling it good. If you come across anything that interrupts a display, let me know. 
+
+My next step is to improve the mobile display of my pages and ponder ways to pretty up the interface while keeping/making it accessible. After that, I'll turn my attention to allow the user to page through results. All the while keeping an eye on NARA to see if they've fixed some of the issues I reported. If I could unshackle my application from extracted text and other hugeness, search times would become beautiful. Like they already are for "kenai" and "earthquake." 
+
+Not exactly related to my project, I also need to find time to get more comfortable with GitHub's branches and pull requests. I'm doing everything in the master branch right now. I'm doing enough experimentation that it might be nice to put some stuff in branches and see if that really works before committing it. Right now I'm not uploading anything till it's ready for the master branch but that is only practical for small projects and increases the risk of losing work. 
+ 
+
+**Interesting Alaskana from US National Archives**
+1. Ferry Hovercraft - https://catalog.archives.gov/id/42212000
+2. 1940 The Problem of Alaskan Development Report - https://catalog.archives.gov/id/72028067
+
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
+
+
+
 ### R1D17: February 2, 2018 - Time spent, 1 hour 30 minutes
 
 **Today's Progress**:  Worked on Alaskana Explorer. Now brings in item level descriptions. Delivers earthquake photographs. Pushed working code to GitHub and made note of new display issues.
