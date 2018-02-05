@@ -21,6 +21,19 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D19: February 4, 2018 - Time spent, 1 hour
+
+**Today's Progress**: Worked on Alaskana Explorer. Made display more mobile friendly and styled images as Bootstrap thumbnails. Identified and fixed a few more display breaking issues.
+
+**Thoughts**: Mostly tweaking today. I wasn't particularly motivated to code today. I wasn't crazy about breaking my streak, so I pulled it together and coded. Learning that just because something is flagged as "Alaska Digitization Project" doesn't mean it is actually digitized. 
+
+It was a good feeling to get the mobile display working. Tomorrow I'll run the WAVE accessiblity evaluation tool on it. I know I'll get dinged for missing img alt tags, but I'm not sure how to solve that. Will work on the other issues. After that, will likely try to figure out how to provide paging through results. 
+
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
+
+
 ### R1D18: February 3, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  Worked on Alaskana Explorer. Fixed display issues. Application reports when less than ten results are retrieved. 
