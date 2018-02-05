@@ -21,6 +21,53 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D20: February 5, 2018 - Time spent, 1 hour
+
+**Today's Progress**:  Worked on Alaskana Explorer. Fixed link contrast issues, added links to home to the "about" and "new" pages. Pondered new issues with File Unit display. Committed changes to GitHub repo. Opened new issue on NARA Catalog API about image display. 
+
+**Thoughts**: First part of morning was straightforward. I ran the WAVE test on my pages. It turned up a low contrast issue with my links that I fixed. It also turned up alt-text issues on my retrieved thumbnails from the National Archives. National Archives photographs are rarely captioned, so I don't think there is a fix for this issue since alt-text of "This is an image" is discouraged.
+
+Second part of coding time was puzzling. It turns out that some of the file unit records I assumed did not have associated objects sort of do. My program expects records like:
+
+Record Cataloged: 2017-08-22T15:12:03
+Year Records Start: 1960
+Year Records End: 1970
+Title: Miscellanous
+Parent Series Title: Newspapers
+There are 12 digital objects associated with this record.
+First digital object found at https://catalog.archives.gov/OpaAPI/media/72039156//lz/seattle/rg-075/1870939/JPGs/1870939-005-008-0001.jpg
+Full record and additional objects available at https://catalog.archives.gov/id/72039156
+NaID = 72039156
+
+You can see that raw JSON for this record at https://catalog.archives.gov/api/v1/?naIds=72039156 . If you page down, you see there is a section labled "object" after a blob labeled discription. If a record doesn't have an "object" section, my application assumes it has no digital objects.
+
+Except I've started to discover records like this one:
+
+Record Cataloged: 2016-11-22T16:51:28
+Year Records Start: 1972
+Year Records End: 1976
+Title: Glaciers
+Parent Series Title: Alaska Task Force Photographs
+This record has no associated digital objects. Unknown reason.
+Full record and additional objects available at https://catalog.archives.gov/id/41027109
+NaID = 41027109
+
+If you check out the raw JSON of this record at https://catalog.archives.gov/api/v1/?naIds=41027109 , you'll see it has no "object" section. So my application says it has no digital objects. But it does. If you look at it's catalog record, you'll see a line that says: "Includes: 386 item(s) described in the catalog." Clicking on this link does show 386 digitized items. But I can't find any field in the JSON that shows that. The link in the catalog goes to the search https://catalog.archives.gov/search?q=*:*&f.ancestorNaIds=41027109&sort=naIdSort%20asc and it MIGHT be possible to reconstruct that, but I'm out of time today. 
+
+I'm also wondering if I need to retrieve fileUnits at all, except it is hard to picture every single digitized file having its own item level record. 
+
+Now that I'm thinking about it, I should also add a known issues section to my "about" page. 
+ 
+
+**Links that helped me get stuff done**
+1. WebAIM color contrast checker - https://webaim.org/resources/contrastchecker/
+2. CSS Styling Links - https://www.w3schools.com/css/css_link.asp
+
+**Link(s) to work**
+1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
+
+
+
 ### R1D19: February 4, 2018 - Time spent, 1 hour
 
 **Today's Progress**: Worked on Alaskana Explorer. Made display more mobile friendly and styled images as Bootstrap thumbnails. Identified and fixed a few more display breaking issues.
