@@ -21,6 +21,13 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D21: February 6, 2018 - Time spent, 1 hour
+
+Starting today, I will be logging my daily progress on my Wordpress blog and providing a link here. Copying and pasting whole posts from here to there just isn't efficient for me. 
+
+Today's progress can be found at:
+https://librarianfromalaska.wordpress.com/2018/02/06/100daysofcode-r1d21-analyzing-data-yields-results/
+
 ### R1D20: February 5, 2018 - Time spent, 1 hour
 
 **Today's Progress**:  Worked on Alaskana Explorer. Fixed link contrast issues, added links to home to the "about" and "new" pages. Pondered new issues with File Unit display. Committed changes to GitHub repo. Opened new issue on NARA Catalog API about image display. 
