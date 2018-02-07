@@ -21,6 +21,10 @@ End Template for log-->
 
 DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
 
+### R1D22: February 7, 2018 - Time spent, 1 hour
+
+For today's (lack of) progress see https://librarianfromalaska.wordpress.com/2018/02/07/100daysofcode-r1d22-stuck-on-the-same-page/
+
 ### R1D21: February 6, 2018 - Time spent, 1 hour
 
 Starting today, I will be logging my daily progress on my Wordpress blog and providing a link here. Copying and pasting whole posts from here to there just isn't efficient for me. 
