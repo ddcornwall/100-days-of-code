@@ -1,25 +1,9 @@
 # 100 Days Of Code - Log
 
-<!--Template for log
-### R1D16: February 1, 2018 - Time spent, 1 hour
+### R1D23: February 8, 2018 - Time spent, 1 hour
 
-**Today's Progress**:  
-
-**Thoughts**: 
-
-
- 
-
-**Links that helped me get stuff done**
-
-
-**Link(s) to work**
-1. National Archives Alaskana Explorer - https://ddcornwall.github.io/nara-alaskana/
-
-
-End Template for log-->
-
-DISCLAIMER - This log will contain typos. For the nicely edited version of my progress, visit https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+For today's progress see:
+https://librarianfromalaska.wordpress.com/2018/02/08/100daysofcode-r1d23-regrouping-reviewing-and-a-few-tweaks/
 
 ### R1D22: February 7, 2018 - Time spent, 1 hour
 
