@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### R1D24: February 10, 2018 - Time spent, 1 hour
+
+For today's progress see:
+https://librarianfromalaska.wordpress.com/2018/02/10/100daysofcode-r1d25-updated-portfolio-more-practical-javascript/
+
 ### R1D24: February 9, 2018 - Time spent, 1 hour
 
 For today's progress see:
