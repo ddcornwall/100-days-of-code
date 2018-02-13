@@ -1,6 +1,17 @@
 # 100 Days Of Code - Log
 
-### R1D24: February 10, 2018 - Time spent, 1 hour
+### R1D28: February 13, 2018 - Time spent, 1 hour
+
+For today's progress see:
+https://librarianfromalaska.wordpress.com/2018/02/13/100daysofcode-r1d28-feeling-like-a-coder/
+
+### R1D26-27: February 11-12, 2018 - Time spent, 1 hour
+
+For today's progress see:
+https://librarianfromalaska.wordpress.com/2018/02/12/100daysofcode-r1d26-and-27-back-to-actual-coding-data-passing-lost/
+
+
+### R1D25: February 10, 2018 - Time spent, 1 hour
 
 For today's progress see:
 https://librarianfromalaska.wordpress.com/2018/02/10/100daysofcode-r1d25-updated-portfolio-more-practical-javascript/
