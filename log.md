@@ -1,5 +1,8 @@
 # 100 Days Of Code - Log
 
+For all activity since 2/13/2018, see the #100DaysOfCode tag under my WordPress blog at
+https://librarianfromalaska.wordpress.com/tag/100daysofcode/
+
 ### R1D28: February 13, 2018 - Time spent, 1 hour
 
 For today's progress see:
